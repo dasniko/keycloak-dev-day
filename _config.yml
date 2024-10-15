@@ -4,7 +4,7 @@ url: https://www.keycloak-day.dev
 baseurl: "" # the subpath of your site, e.g. /blog
 pretix: https://tickets.n-k.de/keycloak-day-25
 showTicketSale: true
-showCfp: true
+showCfp: false
 showPreConfEvent: true
 
 # some default values for Front Matter
