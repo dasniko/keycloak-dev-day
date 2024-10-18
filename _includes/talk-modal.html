@@ -11,15 +11,7 @@
                     <div class="row">
                         <div class="col text-center text-md-start mx-auto">
                             <h2 class="name mb-2">{{talk.title}}</h2>
-                            {% if talk.speaker.first %}
-                                {% for spk in talk.speaker %}
-                                    {% assign s = site.data.speakers | where: "key", spk | first %}
-                                    <div class="meta">{{s.name}}, {{s.company | default: '-'}}</div>
-                                {% endfor %}
-                            {% else %}
-                                {% assign speaker = site.data.speakers | where: "key", talk.speaker | first %}
-                                <div class="meta">{{speaker.name}}, {{speaker.company | default: '-'}}</div>
-                            {% endif %}
+                            {% include speaker-info-short.html talk=talk %}
                         </div>
                     </div>
                 </div>

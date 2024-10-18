@@ -1,0 +1,31 @@
+<section id="schedule-section" class="schedule-section section">
+    <div class="container">
+        <h3 class="section-heading text-center mb-3">Overview of Talks</h3>
+        <div class="section-intro text-center mb-5 mx-auto">
+            <p class="fs-6">
+                We're currently building the schedule, please allow us some time.<br/>
+                In the meantime, enjoy the list of all talks @ Keycloak DevDay 2025:
+            </p>
+        </div>
+        
+        <div class="row">
+        {% for talk in site.data.talks %}
+
+        <div class="col-12 col-lg-6 mb-5 h-100">
+                <div class="content">
+                <h3 class="title mb-3">{{talk.title}}</h3>
+                <div class="speaker mb-3">
+                    {% include speaker-info-short.html talk=talk %}
+                </div>
+                <div class="abstract">{{talk.abstract}}</div>
+            </div>
+        </div>
+
+        {% endfor %}
+        </div>
+                
+        {% if site.showTicketSale %}
+        <div class="schedule-cta text-center mx-auto"><a href="{{site.pretix}}" class="btn btn-secondary btn-lg" target="_blank">Buy Tickets</a></div>
+        {% endif %}
+    </div><!--//container-->
+</section><!--//schedule-section-->
