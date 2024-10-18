@@ -18,8 +18,10 @@
             {% if talk %}
             <div>
                 Talk:<br/>
-                <a href="#modal-talk-{{spk.key}}" data-bs-toggle="modal" data-bs-target="#modal-talk-{{spk.key}}">{{talk.title}}</a>
+                <a href="#modal-talk-{{talk.id}}" data-bs-toggle="modal" data-bs-target="#modal-talk-{{talk.id}}">{{talk.title}}</a>
             </div>
+            {% else %}
+            <div class="text-muted"><em>Talk topic will follow soon...</em></div>
             {% endif %}
         </div><!--//card-->
         <div class="card-footer text-muted">

@@ -1,4 +1,5 @@
-- title: "Keynote: How to benefit from the latest Keycloak features"
+- id: 1
+  title: "Keynote: How to benefit from the latest Keycloak features"
   speaker: ahus1
   room: Berlin
   abstract: |
@@ -8,7 +9,8 @@
     <br/><br/>After a short recap of the latest Keycloak features, this talk shows how to navigate the release schedule of Keycloak and explains how preview and deprecated features work.
     It also shows how to prepare for the next upgrade using the resources provided by the Keycloak project, and what additional measures you should take in your deployment and test pipelines to smoothen the upgrade process.
     Finally, it will detail how you provide feedback to the Keycloak project ahead of an upcoming release.
-- title: "Mastering Access Control: Low-Code Authorization with ReBAC, Decoupling Patterns and Policy as Code"
+- id: 2
+  title: "Mastering Access Control: Low-Code Authorization with ReBAC, Decoupling Patterns and Policy as Code"
   speaker: embesozzi
   abstract: |
     The talk shows the integration between Keycloak and OpenFGA for Fine-Grained Authorization based on ReBAC.
@@ -16,32 +18,126 @@
     As the PEP (Policy Enforcement Point), I added an identity-aware API gateway (Apache APISIX) to enforce authorization and decouple it from the backend.
     The gateway uses a custom plugin that supports Relationship-Based Access Control (ReBAC) policies.
     Based on this approach, the goal was to implement Policy as Code (PaC), decouple authorization logic, and offer Low-Code Authorization.
-- title: "Introducing Keycloakify - A Keycloak theme creation framework"
+- id: 3
+  title: "Introducing Keycloakify - A Keycloak theme creation framework"
   speaker: garronej
   abstract: |
     An in-depth exploration of Keycloakify (<a href="https://keycloakify.dev" target="_blank">https://keycloakify.dev</a>): what it is, its key features, and how to get started with it.
-- title: "Customize Keycloak with Ease: New UI Component Libraries"
+- id: 4
+  title: "Customize Keycloak with Ease: New UI Component Libraries"
   speaker: edewit
   abstract: |
     Join us to discover how our new npm packages are transforming Keycloak customization.
     Learn how to rapidly build stunning and functional account and admin consoles using our pre-built React components based on PatternFly.
     We'll walk you through the core packages, demonstrate the quickstart tool, and share real-world examples of how these components can be used to create exceptional user experiences.
-- title: "The Event Sorcerer with the Keycloak: The Battle against Dynamic Configuration"
+- id: 5
+  title: "The Event Sorcerer with the Keycloak: The Battle against Dynamic Configuration"
   speaker: kingma
   abstract: |
     In the evolving realm of Identity and Access Management (IAM), only the most skilled (event) sorcerers can harness the true power of "the Keycloak".
     <br/>Continue the epic journey from last years DevDay session "IAM Doomsday Prepper: Surviving the Apocalypse with Keycloak" and delve into the art of dynamic, replayable configuration through the power of event sourcing.
     <br/>Discover how to extend static configurations with sets of dynamic event driven configuration, making your IAM projects resilient against change and highly adaptable. Learn the secrets of coding, versioning, and replaying configurations, ensuring your Keycloak setup is robust, future-proof and, most of all, dynamic.
     <br/>Join us for a session that blends technical mastery with the lore of IAM, equipping you with the knowledge to wield dynamic configuration like a true sorcerer. By the end, your Keycloak projects will be fortified, ready to face any IAM challenge ahead.
-- title: "Unlocking adaptive authentication with Keycloak"
+- id: 6
+  title: "Unlocking adaptive authentication with Keycloak"
   speaker: mabartos
   abstract: |
     As digital threats continuously evolve, traditional authentication methods often fall short and are insufficient in today's dynamic security landscape.
     It needs to adapt to different risk levels and ever-changing contexts, such as user location, device, and behavior, to ensure a secure and user-friendly experience.
     <br/>This presentation introduces the importance of adaptive authentication within Keycloak, showcasing how modern techniques combined with machine learning can transform identity and access management.
     <br/>This allows server administrators to detect anomalies and respond to emerging threats more effectively, ensuring that sensitive resources are protected. We provide step-by-step guidance and a demo on configuring and deploying these techniques in your Keycloak environment.
-- title: "Cloud Native Keycloak"
+- id: 7
+  title: "Cloud Native Keycloak"
   speaker: dschlosser
   abstract: |
     We run Keycloak in truly cloud native fashion: GitOps-Deployment to a Kubernetes Cluster (with Istio Service Mesh), Zero Downtime Upgrades even during peak usage times (~1200 Req/s with ~20 Mio users), extensive custom metrics and alerts, file-based realm configuration.
     <br/>In this talk I will deep dive into how we do it, what it took to get there and why we believe it was worth it and even try to push some of it upstream.
+- id: 8
+  title: "Auth.it! Reimagining the Keycloak Admin UI for B2B SaaS"
+  speaker:
+    - xgp
+    - jeffpatzer
+  abstract: |
+    While comprehensive, the Keycloak Admin UI can be intimidating and hard to approach as a beginner.
+    We present how we used a user and task focused design to create a new admin experience targeted at B2B SaaS companies.
+    Our use-case driven methodology allowed us to massively reduce complexity and time to achieve the most common configuration and management goals.
+    Additionally, we peek under the covers to show how we built it, along with existing and new extensions to make it possible.
+- id: 9
+  title: "Strengthening Security in Keycloak: An Introduction to the Shared Signals Framework"
+  speaker: thomasdarimont
+  abstract: |
+    As security threats become more sophisticated, the need for efficient, real-time communication between identity providers and relying parties is essential. The Shared Signals Framework (SSF) and related specifications such as CAEP and RISC address this challenge by providing a standardised way for systems to exchange security related signals, such as session revocations, credential breaches, and other identity-related incidents, in a secure and scalable manner.
+    <br/>This talk introduces the Shared Signals Framework and explains how it enhances security and operational efficiency in modern identity ecosystems. We'll explore how SSF can be supported in Keycloak to enable real-time event-driven communication between providers and relying parties. Attendees will learn how Keycloak can help to detect and mitigate threats, and improve overall system security with SSF.
+- id: 10
+  title: "Token Exchange: Keycloak's Secret Weapon for Platforms"
+  speaker: sventorben
+  abstract: |
+    As platform developers, we're constantly challenged to build systems that are secure, scalable, and ready for anything. But how do you maintain robust security without sacrificing flexibility? Enter OAuth 2.0 Token Exchange in Keycloak — a powerful tool that's transforming the way we manage identity and access across complex architectures.
+    <br/>In this session, we'll explore how to use Keycloak's token exchange capabilities to tackle the toughest problems in platform development: securing microservice communications, handling dynamic authorization across distributed systems, and enabling seamless Single Sign-On across multiple domains. We'll dive deep into real-world use cases, share expert tips on configuring Keycloak for advanced token exchange scenarios, and reveal how you can leverage these capabilities to build platforms that are not just secure, but also agile and responsive to change.
+    <br/>Whether you're building cloud-native apps, orchestrating microservices, or securing APIs, this talk will provide the practical knowledge you need to harness the full power of OAuth 2.0 Token Exchange with Keycloak. Don't miss your chance to redefine your platform's identity strategy and keep your systems ahead of the curve!
+- id: 11
+  title: "Lightweight and Repeatable Integration Testing of Keycloak Extensions"
+  speaker: frademacher
+  abstract: |
+    Keycloak extensions are often required to interact with the APIs of other systems, e.g., for the migration of customers from CRM systems to Keycloak users or for progressive profiling.
+    While Keycloak's potential for such interactions is an important business requirement, it also calls for integration testing and thus makes extension testing more challenging:
+    How to set up and maintain repeatable testing environments? How to ensure continued availability of such environments and still keep the maintenance effort low?
+    How to mock other systems for which only their APIs and access to their production environments is known, but that do not provide any support for testing interactions with external parties?
+    The talk goes into these issues based on experiences with the development of a real-world, non-trivial Keycloak extension for user migration. Specifically, the talk presents
+    (i) ingredients to set up repeatable integration testing environments for Keycloak extensions with the Testcontainers framework; (ii) the automation of such setups so that local testing becomes possible; and (iii) Testcontainers Modules for flexible API mocking, and verifying custom scopes and claims in OIDC tokens.
+    To this end, the talk focuses on a stripped down use case from the real-world Keycloak extension, in which a users logs into another system by means of a dedicated login form whose authenticator checks the user's credentials with the other system and in case of success creates a corresponding Keycloak user ("implicit user migration").
+- id: 12
+  title: "Keycloak's Compliance with Security Specifications : from OAuth 2.0, OIDC to OID4VCI"
+  speaker: tnorimat
+  abstract: |
+    Supporting security specifications (standards) is important for Keycloak especially if we use Keycloak in our services and Keycloak have supported many security specifications (standards).
+    In a first of this talk Takashi describes the meaning of supporting a security specification and propose a level of assurance of conformity with specifications.
+    Takashi also tells which security specifications Keycloak supported.
+    In a last half of this talk, Takashi picks up one specification among them: OpenID for Verifiable Credentials (OID4VCI).
+    In Europe, interest in De-centralized Identity (DID) and Self-sovereign identity (SSI) are increasing as the European Commission released "The European Digital Identity Wallet Architecture and Reference Framework" for eIDAS 2.0.
+    The latest Keycloak supported an experimental feature OpenID for Verifiable Credential Issuance (OID4VCI) for this emerging paradigm of identity by keycloak's community like OAuth SIG.
+    Takashi describes the latest updates about OID4VCI support and describes how to use Keycloak to issue a Verifiable Credential in detail.
+- id: 13
+  title: "kcwarden: Finding and Fixing Keycloak Config Issues"
+  speaker: malexmave
+  abstract: |
+    Keeping a complex Keycloak configuration secure is no easy feat. Configuration drift and unintended changes can turn what was once a secure configuration into one that is wide open to attacks - and taking stock of a configuration that has been created over multiple years of operation can be a daunting task.
+    No matter if you are a administrating your own Keycloak or called in to perform a security audit, automation can be essential in ensuring you can quickly find and fix configuration issues, and detect new ones when they show up.
+    We developed kcwarden, an Open Source tool that assists in finding common security issues and establishing custom guardrails that can alert you about dangerous configuration changes specific to your environment.
+    In this talk, I will present how kcwarden can be used in your workflows. After the presentation, I'd be happy to get your views on the future direction of the tool in an Unconference session.
+- id: 14
+  title: "Five Deadly Sins When Using Keycloak for SSO"
+  speaker: tmmmmmr
+  abstract: |
+    Over recent years, the threat landscape for highly targeted organizations has significantly evolved. When attackers fail to steal user credentials, they will pivot instead to stealing authentication proofs from users.
+    OAuth, a widely adopted protocol, plays a crucial role in safeguarding against these threats. However, its effectiveness can be severely compromised by mis-implementations at both the application and authorization service levels.
+    This presentation will cover the five most critical mistakes —""deadly sins""— committed by architects and developers when using Keycloak to implement SSO with OAuth. These errors can lead to the compromise of user sessions, making organizations vulnerable to attacks.
+    Additionally, we will discuss current/upcoming improvements in the OAuth specification and implementation strategies that can mitigate these risks, and how Keycloak aligns with these practices.
+- id: 15
+  title: "Secure Service-to-Service Communication: Leveraging OIDC with Keycloak and mTLS for Robust Authentication and Authorization"
+  speaker:
+    - dminescu
+    - thodoroaba
+  abstract: |
+    This refers to a system that enables secure communication between services by utilizing OpenID Connect (OIDC) with Keycloak and x509 certificate-based mutual Transport Layer Security (mTLS).
+    This approach not only ensures robust S2S authentication and authorization, but also leverages the concept of automated deployment of services roles in Keycloak, streamlining role management and enhancing overall system security, reliability, and scalability.
+- id: 16
+  title: "KeyCloak Transient Users vs Corporate Security Policy - use case study for custom-flow Keycloak deployment"
+  speaker: wkorlub
+  abstract: |
+    Transient Users in KeyCloak is a new (beta) feature that allows for the creation of users within a session, without the need to store them in the database.
+    This functionality was designed with login architectures in mind where KeyCloak, as an Identity and Access Management (IAM) system, leverages external Identity Providers (IdPs).
+    During our presentation, we will showcase a case study (use-case) that we implemented for a corporate client.
+    We will share why this KeyCloak feature proved to be particularly useful in our scenario, explain how we implemented it, and discuss the lessons learned from integrating this feature into the overall project.
+- id: 17
+  title: ""
+  speaker:
+  abstract: |
+- id: 18
+  title: ""
+  speaker:
+  abstract: |
+- id: 19
+  title: ""
+  speaker:
+  abstract: |

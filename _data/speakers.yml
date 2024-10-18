@@ -88,75 +88,142 @@
       icon: linkedin-in
     - url: https://github.com/mabartos
       icon: github
-- key: dummy
+- key: thomasdarimont
+  img: thomasdarimont.jpg
+  name: Thomas Darimont
+  title: Digital Identity Consultant
+  company: Identity Tailor GmbH
+  social:
+    - url: https://www.linkedin.com/in/thomasdarimont
+      icon: linkedin-in
+    - url: https://github.com/thomasdarimont
+      icon: github
+  bio: |
+    Thomas Darimont is a Digital Identity Consultant and Managing Director at Identity Tailor GmbH.
+    As a long-time contributor to the Keycloak project for almost a decade, Thomas became the first external maintainer outside RedHat in 2022.
+    He is also a member of the OpenID Foundation's Certification team, where he helps to maintain the OpenID Conformance Test Suite.
+    In addition to consulting, Thomas actively contributes to open source projects within the Keycloak ecosystem.
+    With a background as a software architect and IT consultant, he speaks frequently at conferences on Java, WebAssembly, Web Security, and performance.
+- key: sventorben
+  img: sventorben.jpg
+  name: Sven-Torben Janus
+  title: Principal Software Architect
+  company: Conciso GmbH
+  social:
+    - url: https://www.linkedin.com/in/sventorben
+      icon: linkedin-in
+    - url: https://www.github.com/sventorben
+      icon: github
+  bio: |
+    <p>Sven-Torben Janus is a seasoned software architect with over 15 years of experience in software development and IT consulting. He began his career at the Fraunhofer Institute, where he specialized in business process management and service-oriented architectures, building a solid foundation in distributed systems. He holds a degree in Computer Science from TU Dortmund, where he focused on distributed systems and logistics.</p>
+    <p>As a Principal Software Architect and Partner at Conciso GmbH since 2016, Sven-Torben has been at the forefront of advising on complex software architectures, particularly in agile, domain-driven development environments. His expertise spans demand-driven software development, Domain-Driven Design, and socio-technical architectures, with a particular focus on Identity and Access Management (IAM) solutions using Keycloak.</p>
+    <p>A passionate advocate for collaborative technology practices, Sven-Torben combines deep technical knowledge with a commitment to fostering strong, innovative tech communities. In his presentations, he delivers a compelling blend of strategic insight and practical experience, offering audiences actionable guidance and a fresh perspective on the challenges and opportunities in modern software architecture.</p>
+- key: xgp
   img: dummy.png
-  name: Maybe you? 🫵
-  title: As the call-for-papers is still open, we will publish more talks in the next weeks... submit your proposal now!
-# - key: tda
-#   img: td.jpg
-#   name: Thomas Darimont
-#   title: Principal Consultant
-#   company: codecentric AG
-#   social:
-#     - url: https://www.linkedin.com/in/thomasdarimont
-#       icon: linkedin-in
-#     - url: https://github.com/thomasdarimont
-#       icon: github
-#   bio: |
-#     Thomas Darimont is a Principal Consultant at codecentric AG in Germany. As a digital identity specialist, he helps customers design, implement, and integrate identity platforms based on open-source technologies.
-#     <p>Thomas has been involved with the Keycloak project for over nine years and was the first maintainer outside of Red Hat.</p>
-#     <p>In his spare time, he loves fostering the local tech community in Saarland by organizing and speaking at tech meetups and contributing to open-source projects.</p>
-# - key: sta
-#   img: sta.jpeg
-#   name: Sophie Tauchert
-#   title: IT Security Engineer
-#   company: Relaxdays GmbH
-#   social:
-#     - url: https://github.com/999eagle
-#       icon: github
-#   bio: |
-#     Sophie Tauchert works as an IT-security engineer at Relaxdays GmbH and has been overseeing the introduction of Keycloak as Single-Sign On solution there since the beginning.
-#     During that work she has contributed a few things to Keycloak and developed custom in-house plugins extending Keycloak.
-#     She is a frequent contributor to open source projects and maintains multiple packages for Nix/NixOS.
-#     In her spare time she hosts and manages instances of privacy respecting software like Matrix, Mastodon and TOR.
-# - key: rba
-#   img: rba.jpg
-#   name: Robert Bauer
-#   title: Founder | Product Management
-#   company: intension GmbH
-#   social:
-#     - url: https://www.linkedin.com/in/robert-bauer-a3bb334
-#       icon: linkedin-in
-#   bio: |
-#     Robert is Co-Founder of Intension and has been working in the field of Identity and Access Management (IAM) for nearly 25 years. Having worked as a Software Developer for several years, he possesses a strong technical background and has also gained substantial experience on the business side as an IAM Architect and Consultant.
-#     <p>He has been working with Keycloak for about 10 years now, assisting organizations utilize Keycloak effectively for their projects and business operations. Currently as the Product Manager for digital identity at Intension, Robert’s main focus is to share his and Intension's 25 years of knowledge and experience in IAM with anyone wanting to launch on their digital transformation journey.</p>
-# - key: stj
-#   img: stj.jpg
-#   name: Sven-Torben Janus
-#   title: Principal Software Architect
-#   company: Conciso GmbH
-#   social:
-#     - url: https://www.linkedin.com/in/sventorben
-#       icon: linkedin-in
-#     - url: https://www.github.com/sventorben
-#       icon: github
-#   bio: |
-#     Sven-Torben Janus formte seine Expertise während seines Informatikstudiums an der TU Dortmund mit Fokus auf verteilte Systeme und Logistik.
-#     Seine mehr als 15-jährige Reise in Softwareentwicklung und IT-Beratung begann bei Fraunhofer, wo er sich in Geschäftsprozessmanagement und serviceorientierten Architekturen vertiefte.
-#     Seit 2016 prägt er als Principal Software Architect und Partner die Beratung zu Softwarearchitekturen bei der Conciso GmbH. 
-#     Sein Herz schlägt für bedarfsorientierte, agile Softwareentwicklung, Domain-Driven Design und soziotechnische Architekturen. 
-#     Dabei bringt er seine langjährige Expertise als IAM-Architekt mit Fokus auf Keycloak ein.
-#     Sven-Torben Janus ist nicht nur ein versierter Technologe, sondern auch ein engagierter Förderer einer kollaborativen Tech-Gemeinschaft.
-#     In seinem Vortrag erwartet die Teilnehmer eine inspirierende Mischung aus Fachwissen und persönlicher Perspektive.
-# - key: grp
-#   img: dummy.png
-#   name: GR Patil
-#   title: Co-Founder | CEO
-#   company: Phase Two Inc.
-#   social:
-#     - url: https://github.com/xgp
-#       icon: github
-#   bio: |
-#     GR Patil is the co-founder and CEO of Phase Two, a Keycloak hosting and support company, where he is the principal author of most of its Keycloak extensions. 
-#     He has been working with Keycloak for 7 years, and has been building software startups for 27 years.
-#     Most recently, he was a staff engineer at Twitter and a co-founder at BrightRoll.
+  name: GR Patil
+  title: Co-Founder | CEO
+  company: Phase Two Inc.
+  social:
+    - url: https://github.com/xgp
+      icon: github
+  bio: |
+    GR Patil is a co-founder and CEO of Phase Two, where he is the principal author of most of its Keycloak extensions.
+    He has been working with Keycloak for 7 years, and has been building software startups for 27 years.
+    Most recently, he was a staff engineer at Twitter and a co-founder at BrightRoll.
+- key: jeffpatzer
+  img: dummy.png
+  name: Jeff Patzer
+  title: Co-Founder
+  company: Phase Two Inc.
+  bio: |
+    Jeff Patzer is a co-founder of Phase Two, a Keycloak hosting and support company, where he helped build and author many the company's applications and Keycloak integrations.
+    He has been working with Keycloak for the last 2.5 years and building software for over 15.
+    Prior to Phase Two, he worked as a Principal Engineer at multiple startups, often crafting first application iterations from zero to funding, and lead global technical sales at a large edge network.
+    He's also served in a variety of roles and responsibilities from Sales to Design to Product.
+- key: frademacher
+  img: frademacher.png
+  name: Florian Rademacher
+  title: IT Consultant
+  company: codecentric AG
+  social:
+    - url: https://www.linkedin.com/in/florian-rademacher
+      icon: linkedin
+  bio: |
+    Florian has been working as an IT consultant and software architect at codecentric AG since 2023, where he deals with the integration of Keycloak into existing application landscapes, among other things.
+    Previously, he was a researcher at various universities and completed his doctorate on the model-driven development of microservice architectures.
+    Before that, he worked as an SAP developer and administrator for several years.
+    Florian's core competencies include all activities related to the design, development, testing and operation of software systems with monolithic or loosely coupled architectures.
+- key: tnorimat
+  img: tnorimat.jpg
+  name: Takashi Norimatsu
+  title: Senior OSS Specialist
+  company: Hitachi Ltd.
+  social:
+    - url: https://www.linkedin.com/in/takashi-norimatsu-45a59b192/
+      icon: linkedin
+    - url: https://github.com/tnorimat
+      icon: github
+  bio: |
+    Takashi Norimatsu, Senior OSS Specialist, Hitachi, Ltd. is a maintainer of Keycloak.
+    He has implemented and contributed security features like Financial-grade API (FAPI) security profiles, W3C Web Authentication (WebAuthn) API support.
+    He leads Keycloak's community "OAuth SIG" (Ex FAPI-SIG) as Tech Lead for supporting OAuth/OIDC and its related security features to Keycloak.
+    He has experience constructing high security banking API systems with Keycloak.
+- key: tmmmmmr
+  img: tmmmmmr.jpg
+  name: Abdessamad Temmar
+  title: Application & Product Security Engineer
+  social:
+    - url: https://www.linkedin.com/in/abdessamad-temmar/
+      icon: linkedin
+  bio: |
+    Abdessamad Temmar is an Application & Product Security Engineer, an active contributor to the OWASP community, and founder of Keycloak Academy - an elearning platform on how to leverage OAuth for Identity and access management.
+    Previous speaking engagements include both DevOps and Security/Hacking conferences.
+- key: wkorlub
+  img: wkorlub.png
+  name: Waldemar Korłub
+  title: CTO
+  company: Inero Software
+  social:
+    - url: https://www.linkedin.com/in/waldemar-kor%C5%82ub-3b132787/
+      icon: linkedin
+  bio: |
+    Waldemar Korłub (CTO Inero Software) obtained a PhD in Computer Science in 2017 granted by the Faculty of Electronics, Telecommunications and Informatics at Gdansk University of Technology.
+    His research interests include: distributed systems mainly grid and cloud computing platforms, autonomous systems capable of self-optimization, self-management, self-healing and self-protection, artificial intelligence and multi-criterion optimization methods.
+    He is an author of over 30 scientific papers in the area of distributed computing and artificial intelligence & he participated in several research projects.
+- key: malexmave
+  img: malexmave.jpg
+  name: Max Maass
+  title: Senior Security Specialist
+  company: iteratec
+  social:
+    - url: https://www.linkedin.com/in/max-maass/
+      icon: linkedin
+    - url: https://github.com/malexmave
+      icon: github
+  bio: |
+    Max Maaß works at the security team at iteratec.
+    He spends his time with architecture reviews, threat modeling and pentesting for software development projects.
+    Previously, he conducted research into security and privacy issues at the Secure Mobile Networking Lab at TU Darmstadt.
+- key: dminescu
+  img: dminescu.jpg
+  name: Denisa Minescu
+  title: Advisory Engineer
+  company: Lenovo
+  social:
+    - url: https://www.linkedin.com/in/andreea-denisa-minescu-856665121/
+      icon: linkedin
+  bio: |
+    <em>t.b.d.</em>
+- key: thodoroaba
+  img: thodoroaba.jpg
+  name: Tiberius Hodoroaba
+  title: Cybersecurity Engineer
+  company: Lenovo
+  social:
+    - url: https://www.linkedin.com/in/tiberius-hodoroaba/
+      icon: linkedin
+  bio: |
+    Cybersecurity Engineer, ex-Mathematics and Informatics teacher, both in the Romanian and international system, oscillating between the city and the countryside since 1992.
+    Chronic astrophile (a "disease" cured solely by stars and galaxies), on-demand chef, photographer's assistant when necessary, tornado hunter in an alternate existence.
+    Avid science-fiction reader, lover of classical music, black tea and van travels.
+    One day, I would love to ride the Transsiberian, but I'm OK with any steam train journey, as well.
