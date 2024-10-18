@@ -227,3 +227,66 @@
     Chronic astrophile (a "disease" cured solely by stars and galaxies), on-demand chef, photographer's assistant when necessary, tornado hunter in an alternate existence.
     Avid science-fiction reader, lover of classical music, black tea and van travels.
     One day, I would love to ride the Transsiberian, but I'm OK with any steam train journey, as well.
+- key: cgeorgilakis
+  img: cgeorgilakis.png
+  name: Georgilakis Konstantinos
+  title: Software Developer
+  company: GRNET
+  social:
+    - url: https://www.linkedin.com/in/konstantinos-georgilakis-8a4356124/
+      icon: linkedin
+    - url: https://github.com/cgeorgilakis
+      icon: github
+  bio: |
+    Konstantinos Georgilakis holds a degree in Computer Engineering from NTUA.
+    He has worked as a Software Java Developer since April 2013 on Greek and EC-funded projects.
+    His experience focuses on Java/Spring. He works in GRNET since June 2018.
+    As a member of the GRNET Authentication and Authorisation Infrastructure team, he has made significant contributions to Keycloak, facilitating seamless access to research resources for diverse stakeholders within the European Open Science Cloud (EOSC).
+- key: kozadinos
+  img: kozadinos.jpg
+  name: Andreas Kozadinos
+  title: Web Developer
+  company: GRNET
+  social:
+    - url: https://www.linkedin.com/in/andreas-kozadinos-a52940157/
+      icon: linkedin
+  bio: |
+    Andreas Kozadinos studied Computer Science at University of Piraeus.
+    He has worked as a Web Developer at GRNET since October 2019, focusing primarily on React and Node.js.
+    As a member of the GRNET Authentication and Authorisation Infrastructure team, he has made significant contributions to extending Keycloak, facilitating seamless access to research resources for diverse stakeholders within the European Open Science Cloud (EOSC).
+- key: bike
+  img: bike.jpg
+  name: Bastian Ike
+  title: Keycloak expert
+  company: Bare.ID GmbH
+  social:
+    - link: https://www.linkedin.com/in/bastianike/
+      icon: linkedin
+  bio: |
+    Bastian is a Keycloak expert at Bare.ID, responsible for customer projects and the product development.
+    With more than 15 years in Cybersecurity and more than 7 year with Keycloak.
+    With a passion for open source, Bastian loves to share code and experiences.
+- key: fboettcher
+  img: fboettcher.jpg
+  name: Fabian Böttcher
+  title: SRE
+  company: finmid
+  social:
+    - link: https://www.linkedin.com/in/fabian-b%C3%B6ttcher-5b8936153/
+      icon: linkedin
+  bio: |
+    Fabian is an experienced engineer who started his career as a backend engineer in the payments industry.
+    He became the first engineer at finmid in 2021, where he initially focused on development before transitioning into an SRE role.
+    Fabian is now responsible for optimizing finmid's infrastructure and platform, ensuring scalability and reliability.
+- key: bbednarek
+  img: bbednarek.jpg
+  name: Bartosz Bednarek
+  title: Head of Engineering
+  company: finmid
+  social:
+    - link: https://www.linkedin.com/in/bartoszbednarek/
+      icon: linkedin
+  bio: |
+    Bart joined finmid as Head of Engineering at the end of 2021.
+    With a hands-on approach, he leads the technical strategy, overseeing the development and scaling of secure, high-performance platform.
+    He's managing engineering teams, ensuring timely delivery of innovative and pragmatic solutions by collaborating closely with product, design and business teams to drive the company's growth.

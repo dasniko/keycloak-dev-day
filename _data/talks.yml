@@ -130,14 +130,32 @@
     During our presentation, we will showcase a case study (use-case) that we implemented for a corporate client.
     We will share why this KeyCloak feature proved to be particularly useful in our scenario, explain how we implemented it, and discuss the lessons learned from integrating this feature into the overall project.
 - id: 17
-  title: ""
+  title: "Enhancing Group Management in Keycloak: A Flexible Extension for Dynamic Membership Control"
   speaker:
+    - cgeorgilakis
+    - kozadinos
   abstract: |
+    Overview: This presentation introduces an advanced group management extension for Keycloak, aimed at providing greater flexibility and control over group memberships. Our goal is to overcome the limitations of Keycloak's hierarchical groups and eventually integrate this extension into Keycloak's core features.
+    <br/>Problem: Keycloak's current group system lacks essential capabilities, including the assignment of specific roles within groups, support for defining membership start and end dates, and functionality for tracking membership status, such as active, pending, or suspended.
+    <br/>Solution: Our extension addresses these limitations with several key features. It enables distinct roles for members, allows admins to define when memberships activate and expire, and permits users to be manually updated or removed based on configuration. Membership status management includes full membership status, pre-configured future memberships, and temporary deactivation of membership.
+    <br/>Empowering Group Administrators: This extension empowers group administrators by allowing them to manage their own and child groups independently, handle enrollment requests or invitations, and either manually or on-demand remove users from groups (versus automatically, once their membership expires), ensuring cleaner group management.
+    <br/>Enhanced User Experience: To improve usability, new menus in user and admin consoles simplify group management. Automated email notifications inform users and admins about key events like invitations and membership changes.
+    <br/>Development and Future Integration: Currently implemented as a Keycloak extension (plugin), this functionality allows for easy integration without core modifications. Given its significant value, we believe it should be considered for integration into Keycloak's core features. We will also demonstrate the code structure and how the extension interfaces with Keycloak's architecture.
 - id: 18
-  title: ""
-  speaker:
+  title: "Live-migrating millions of sessions to Keycloak"
+  speaker: bike
   abstract: |
+    One of our projects moved from a proprietary OAuth service to Keycloak. To ensure a smooth transition, we migrated all existing sessions to Keycloak to prevent users from being logged out despite the migration to a completely new SSO Server.
+    In this talk we explore how Keycloak manages sessions, how they relate to tokens and how we achieved the "live migration" to Keycloak without any user noticing.
 - id: 19
-  title: ""
+  title: "Integration Testing of Keycloak Terraform Modules"
   speaker:
+    - fboettcher
+    - bbednarek
   abstract: |
+    Using Terraform to automate provisioning and configuration of Keycloak implements a repeatable and version-controlled method to manage Keycloak.
+    Additionally, reusable Terraform modules allow engineers to to provision resources like OIDC clients in their respective code repositories.
+    To ensure a controlled, secure and predictable Keycloak setup, thorough testing is a crucial part of this architecture.
+    In this talk, we will cover how to test and validate customized Keycloak setups by leveraging Kotlin-based integration tests.
+    Using Kotlin's concise and expressive language features, we can write integration tests that confirm the correctness of the Terraform-provisioned Keycloak configurations.
+    These tests will ensure that realms, authentication flows, and client settings behave as expected, reducing the risk of configuration errors in production.
