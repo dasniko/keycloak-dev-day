@@ -274,6 +274,8 @@
   social:
     - link: https://www.linkedin.com/in/fabian-b%C3%B6ttcher-5b8936153/
       icon: linkedin
+    - link: https://github.com/Cakasim
+      icon: github
   bio: |
     Fabian is an experienced engineer who started his career as a backend engineer in the payments industry.
     He became the first engineer at finmid in 2021, where he initially focused on development before transitioning into an SRE role.
@@ -286,6 +288,8 @@
   social:
     - link: https://www.linkedin.com/in/bartoszbednarek/
       icon: linkedin
+    - link: https://github.com/bbednarek
+      icon: github
   bio: |
     Bart joined finmid as Head of Engineering at the end of 2021.
     With a hands-on approach, he leads the technical strategy, overseeing the development and scaling of secure, high-performance platform.
