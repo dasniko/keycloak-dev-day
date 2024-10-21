@@ -5,7 +5,7 @@
   company: Red Hat Inc.
   social:
     - url: https://www.linkedin.com/in/alexander-schwartz-86b84520
-      icon: linkedin-in
+      icon: linkedin
     - url: https://github.com/ahus1
       icon: github
   bio: |
@@ -19,7 +19,7 @@
   bio: Founder and IAM Architect with 18 years of experience focused on IAM projects.
   social:
     - url: https://www.linkedin.com/in/embesozzi/
-      icon: linkedin-in
+      icon: linkedin
     - url: https://github.com/embesozzi
       icon: github
 - key: garronej
@@ -30,7 +30,7 @@
   bio: I am a French public service agent and full-time open sourcer, currently serving as the tech lead for the European Data Science Platform powered by Onyxia (https://onyxia.sh)
   social:
     - url: https://www.linkedin.com/in/joseph-garrone-0b583490/
-      icon: linkedin-in
+      icon: linkedin
     - url: https://github.com/garronej
       icon: github
 - key: kingma
@@ -44,7 +44,7 @@
     He's a recognized speaker and trainer, frequently delivering insightful presentations at top conferences including Devoxx Belgium, Devoxx UK, Devoxx Greece, JavaLand and DevBCN.
   social:
     - url: https://www.linkedin.com/in/maik-kingma/
-      icon: linkedin-in
+      icon: linkedin
     - url: https://github.com/MaikKingma
       icon: github
 - key: dschlosser
@@ -57,7 +57,7 @@
     Focus on identity management and Keycloak for about 3 years, starting with a big migration project at one of the biggest public IT service providers in Europe which is still ongoing.
   social:
     - url: https://www.linkedin.com/in/dominik-schlosser-319322117/
-      icon: linkedin-in
+      icon: linkedin
     - url: https://github.com/dominikschlosser
       icon: github
 - key: edewit
@@ -71,7 +71,7 @@
     Because I'm very enthusiastic about technology, I like to exchange thoughts and knowledge with others.
   social:
     - url: https://www.linkedin.com/in/erik-jan-de-wit-aba255/
-      icon: linkedin-in
+      icon: linkedin
     - url: https://github.com/edewit
       icon: github
 - key: mabartos
@@ -85,7 +85,7 @@
     He seeks to integrate new technologies and procedures to ensure their future relevance and innovation.
   social:
     - url: https://www.linkedin.com/in/mabartos98/
-      icon: linkedin-in
+      icon: linkedin
     - url: https://github.com/mabartos
       icon: github
 - key: thomasdarimont
@@ -95,7 +95,7 @@
   company: Identity Tailor GmbH
   social:
     - url: https://www.linkedin.com/in/thomasdarimont
-      icon: linkedin-in
+      icon: linkedin
     - url: https://github.com/thomasdarimont
       icon: github
   bio: |
@@ -111,7 +111,7 @@
   company: Conciso GmbH
   social:
     - url: https://www.linkedin.com/in/sventorben
-      icon: linkedin-in
+      icon: linkedin
     - url: https://www.github.com/sventorben
       icon: github
   bio: |
@@ -213,7 +213,10 @@
     - url: https://www.linkedin.com/in/andreea-denisa-minescu-856665121/
       icon: linkedin
   bio: |
-    <em>t.b.d.</em>
+    Denisa Minescu is an advisory engineer and team lead at Lenovo, where she coordinates bright young engineers while contributing to the company's strategic objectives.
+    Her journey in tech has resulted in two patents in the cybersecurity area, showcasing her growth and passion for innovation.
+    With six years of experience, Denisa applies security best practices and prioritizes trust in all she does.
+    While aiming to become a product owner, she balances her tech career with her love for floristry, finding that these diverse passions complement and fulfill her.
 - key: thodoroaba
   img: thodoroaba.jpg
   name: Tiberius Hodoroaba
