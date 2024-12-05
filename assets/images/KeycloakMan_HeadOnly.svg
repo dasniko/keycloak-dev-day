@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_5"
+   viewBox="0 0 232 260"
+   version="1.1"
+   sodipodi:docname="KeyloakMan_HeadOnly.svg"
+   width="232"
+   height="260"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview20"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.4469565"
+     inkscape:cx="263.3113"
+     inkscape:cy="281.6256"
+     inkscape:window-width="2560"
+     inkscape:window-height="1326"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_5" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">.cls-1{fill:#115682;}.cls-2{fill:#cecece;}.cls-3{fill:#f2f3f3;}.cls-4{fill:#c4dfee;}.cls-5{fill:#e3f2fd;}</style>
+  </defs>
+  <path
+     class="cls-5"
+     d="M 6.6400002,64.28 115.56,1.4 224.45,64.28 V 190.01 L 115.56,252.89 6.6400002,190.01 Z"
+     id="path14" />
+  <path
+     class="cls-4"
+     d="M 115.86,252.89 224.78,190.01 V 64.9 L 115.86,1.4 Z"
+     id="path15" />
+  <path
+     class="cls-1"
+     d="M 88.04,107.68 6.7900002,64.9 v 49.75 L 88.04,157.43 c 17.31,9.12 38,9.12 55.31,0 L 224.6,114.65 V 64.9 l -81.25,42.78 c -17.31,9.12 -38,9.12 -55.31,0 z"
+     id="path16" />
+  <path
+     class="cls-1"
+     d="m 115.71,165.41 c -9.68,0 -19.359999,-2.33 -28.18,-6.96 L 5.6800002,115.34 V 63.03 L 88.59,106.69 c 16.99,8.95 37.26,8.95 54.25,0 l 82.91,-43.66 v 52.31 l -81.86,43.11 c -8.82,4.63 -18.5,6.96 -28.18,6.96 z M 7.9300002,113.98 88.56,156.44 c 16.99,8.95 37.26,8.95 54.25,0 l 80.63,-42.46 V 66.8 l -79.57,41.9 c -17.64,9.29 -38.73,9.29 -56.37,0 L 7.9300002,66.8 Z"
+     id="path17" />
+  <path
+     class="cls-5"
+     d="m 189.39,100.72 c 4.53,8.56 -3.93,21.93 -18.91,29.86 -14.99,7.93 -30.79,7.42 -35.32,-1.14 z"
+     id="path18" />
+  <path
+     class="cls-5"
+     d="m 42.03,100.72 c -4.53,8.56 3.93,21.93 18.91,29.86 14.97,7.93 30.79,7.42 35.320001,-1.14 z"
+     id="path19" />
+  <path
+     class="cls-1"
+     d="m 115.71,259.7 c -1.16,0 -2.35,-0.3 -3.41,-0.91 L 20.79,205.96 C 7.9800002,198.57 0,184.76 0,169.97 V 64.29 C 0,61.85 1.29,59.61 3.41,58.38 L 94.920001,5.55 C 107.73,-1.85 123.66,-1.85 136.49,5.55 L 228,58.38 c 2.11,1.21 3.41,3.47 3.41,5.91 v 105.68 c 0,14.79 -7.96,28.59 -20.79,35.99 l -91.51,52.83 c -1.06,0.6 -2.22,0.91 -3.41,0.91 z M 13.63,68.2 v 101.76 c 0,9.96 5.35,19.21 13.97,24.19 l 88.11,50.87 88.11,-50.87 c 8.62,-4.98 13.97,-14.25 13.97,-24.19 V 68.2 L 129.68,17.33 c -8.62,-4.98 -19.32,-4.98 -27.95,0 L 13.62,68.2 Z"
+     id="path20" />
+</svg>

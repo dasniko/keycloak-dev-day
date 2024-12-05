@@ -74,24 +74,27 @@ included:
 		</div>
 		<div class="hero-block-mask"></div>
 		<div class="container">
-			<div class="hero-text-block">
-				<h1 class="hero-heading mb-2">Keycloak DevDay 2025</h1>
-				<div class="hero-meta mb-3">
-					<i class="far fa-calendar-alt me-2"></i>March 6, 2025 
-					<i class="fas fa-map-marker-alt mx-2"></i>Darmstadt, Germany 
-					<!--<i class="fas fa-clock mx-2"></i>9am - 5pm-->
-				</div>
-				<div class="hero-intro mb-4">The Community Class Reunion for <br>Keycloak Developers</div>
-				<div class="hero-cta">
-				{% if site.showTicketSale %}
-				<a class="btn btn-primary btn-lg me-2 mb-2" href="{{site.pretix}}" target="_blank">Get Tickets</a>
-				{% endif %}
-				{% if site.showCfp %}
-				<a class="btn btn-secondary btn-lg me-2 mb-2 scrollto" href="#cfp-section" >>>> Call for Papers <<<</a>
-				{% endif %}
-				{% if site.showPreConfEvent %}
-				<a class="btn btn-secondary btn-lg me-2 mb-2 scrollto" href="#pre-conf-event-section">Pre-Conf Event</a>
-				{% endif %}
+			<div class="d-flex align-items-start">
+				<img src="./assets/images/KeycloakMan.svg" alt="Keycloak Hero" class="me-3 d-none d-md-block" style="z-index: 10; width: 300px; height: auto; margin-left: -6rem">
+				<div class="hero-text-block">
+					<h1 class="hero-heading mb-2">Keycloak DevDay 2025</h1>
+					<div class="hero-meta mb-3">
+						<i class="far fa-calendar-alt me-2"></i>March 6, 2025 
+						<i class="fas fa-map-marker-alt mx-2"></i>Darmstadt, Germany 
+						<!--<i class="fas fa-clock mx-2"></i>9am - 5pm-->
+					</div>
+					<div class="hero-intro mb-4">The Community Class Reunion for <br>Keycloak Developers</div>
+					<div class="hero-cta">
+					{% if site.showTicketSale %}
+					<a class="btn btn-primary btn-lg me-2 mb-2" href="{{site.pretix}}" target="_blank">Get Tickets</a>
+					{% endif %}
+					{% if site.showCfp %}
+					<a class="btn btn-secondary btn-lg me-2 mb-2 scrollto" href="#cfp-section" >>>> Call for Papers <<<</a>
+					{% endif %}
+					{% if site.showPreConfEvent %}
+					<a class="btn btn-secondary btn-lg me-2 mb-2 scrollto" href="#pre-conf-event-section">Pre-Conf Event</a>
+					{% endif %}
+					</div>
 				</div>
 			</div>
 		</div>

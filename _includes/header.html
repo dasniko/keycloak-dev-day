@@ -2,7 +2,12 @@
     <div class="branding">
         <div class="container-fluid">
             <nav class="main-nav navbar navbar-expand-lg">
-                <div class="site-logo"><a class="scrollto" href="#hero-block"><img class="logo-icon" src="./assets/images/logo-white.png" alt="Keycloak DevDay Logo"></a></div>    
+                <div class="site-logo">
+                    <a class="scrollto d-flex align-items-center" href="#hero-block">
+                        <img class="logo-icon" src="./assets/images/KeycloakMan_HeadOnly.svg" alt="Keycloak DevDay Logo">
+                        <h4 class="text-white ms-2 mb-0">Keycloak DevDay</h4>
+                    </a>
+                </div>    
                 
                 {% if site.showTicketSale %}<div class="navbar-btn order-lg-2"><a class="btn btn-secondary" href="{{site.pretix}}" target="_blank">Tickets</a></div>{% endif %}
                 
