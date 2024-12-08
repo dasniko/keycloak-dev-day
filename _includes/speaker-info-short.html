@@ -4,13 +4,17 @@
         {% assign s = site.data.speakers | where: "key", spk | first %}
         <div class="meta">
             <img src="./assets/images/speakers/{{s.img}}"  style="width: 50px" class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" alt="{{s.name}}">
-            {{s.name}}, {{s.company | default: '-'}}
+            <a class="theme-link" href="#modal-speaker-{{ s.key }}" data-bs-toggle="modal" data-bs-target="#modal-speaker-{{ s.key }}">
+                {{s.name}}, {{s.company | default: '-'}}
+            </a>
         </div>
     {% endfor %}
 {% else %}
     {% assign speaker = site.data.speakers | where: "key", talk.speaker | first %}
     <div class="meta">
         <img src="./assets/images/speakers/{{speaker.img}}"  style="width: 50px" class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" alt="{{speaker.name}}">
-        {{speaker.name}}, {{speaker.company | default: '-'}}
+        <a class="theme-link" href="#modal-speaker-{{ speaker.key }}" data-bs-toggle="modal" data-bs-target="#modal-speaker-{{ speaker.key }}">
+            {{speaker.name}}, {{speaker.company | default: '-'}}
+        </a>
     </div>
 {% endif %}

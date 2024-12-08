@@ -1,165 +1,179 @@
 <section id="schedule-section" class="schedule-section section">
     <div class="container">
         <h3 class="section-heading text-center mb-5">Schedule</h3>
-        
-        <!-- Nav tabs -->
-        <ul class="schedule-nav nav nav-pills nav-fill" id="myTab" role="tablist">
-            <li class="nav-item me-2">
-                <a class="nav-link active" id="tab-1" data-bs-toggle="tab" href="#tab-1-content" role="tab" aria-controls="tab-1-content" aria-selected="true">
-                    <span class="heading">Thu 22, Feb</span>
-                    <span class="meta d-none">Day 1</span>
-                </a>
-            </li>
-        </ul>
-        
-        <!-- Tab panes -->
-        <div class="schedule-tab-content tab-content">
-            <div class="tab-pane active" id="tab-1-content" role="tabpanel" aria-labelledby="tab-1">
-                <div class="item item-talk">
+        <div>
+            <div class="row mb-3">
+                <div class="col-12 mb-1">
+                    <h4 class="py-2 text-center theme-bg-primary text-white mb-0">9:00 - 9:15</h4>
+                </div>
+                <div class="col-12">
+                    <div class="text-center theme-bg-light">Berlin</div>
+                    <h5 class="title mb-3">Welcome & Opening Note 🎉</h5>
                     <div class="meta">
-                        <h4 class="time mb-3">8:00 - 9:00</h4>
-                    </div><!--//meta-->
-                    <div class="content">
-                        <h3 class="title mb-3">Breakfast Reception</h3>
-                        <div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Main Area</div>
-                        <div class="desc">
-                            Enjoy your arrival and have some coffee ☕️ and a small breakfast 🥐 if you like.
-                            Get ready to start into a <i>Keycloakified</i> day!
-                        </div>
-                    </div><!--//content-->
-                </div><!--//item-->
-                <div class="item item-talk">
+                        <img src="./assets/images/speakers/nko.jpg"  style="width: 50px" class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" alt="Niko Köbler">
+                        Niko Köbler, Host & Organizer
+                    </div>
                     <div class="meta">
-                        <h4 class="time mb-3">9:00 - 9:15</h4>
-                    </div><!--//meta-->
-                    <div class="content">
-                        <h3 class="title mb-3">Welcome &amp; Opening Note</h3>
-                        <div class="profile mb-3">
-                            <div class="name">Niko Köbler, Sebastian Rose</div>
-                        </div><!--//profile-->
-                        <div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Main Area</div>
-                    </div><!--//content-->
-                </div><!--//item-->
-                <div class="item item-talk">
+                        <img src="./assets/images/speakers/sro.jpg"  style="width: 50px" class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" alt="Sebastian Rose">
+                        Sebastian Rose, Host & Organizer
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 mb-1">
+                    <h4 class="py-2 text-center theme-bg-primary text-white mb-0">9:15 - 9:45</h4>
+                </div>
+                <div class="col-12">
+                    <div class="text-center theme-bg-light">Berlin</div>
+                    {% include talk.html id=1 %}
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 mb-1">
+                    <h4 class="py-2 text-center theme-bg-primary text-white mb-0">10:00 - 10:45</h4>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="text-center theme-bg-light">Berlin</div>
+                    {% include talk.html id=7 %}
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="text-center theme-bg-light">Raum 2</div>
+                    {% include talk.html id=10 %}
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="text-center theme-bg-light">Library</div>
+                    {% include talk.html id=17 %}
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 mb-1">
+                    <h4 class="py-2 text-center theme-bg-primary text-white mb-0">11:15 - 11:45</h4>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="text-center theme-bg-light">Berlin</div>
+                    {% include talk.html id=3 %}
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="text-center theme-bg-light">Raum 2</div>
+                    {% include talk.html id=12 %}
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="text-center theme-bg-light">Library</div>
+                    {% include talk.html id=11 %}
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 mb-1">
+                    <h4 class="py-2 text-center theme-bg-primary text-white mb-0">12:00 - 12:30</h4>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="text-center theme-bg-light">Berlin</div>
+                    {% include talk.html id=9 %}
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 mb-1">
+                    <h4 class="py-2 text-center theme-bg-primary text-white mb-0">12:45 - 13:15</h4>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="text-center theme-bg-light">Berlin</div>
+                    {% include talk.html id=18 %}
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 mb-1">
+                    <h4 class="py-2 text-center theme-bg-primary text-white mb-0">13:30 - 14:15</h4>
+                </div>
+                <div class="col-12">
+                    <div class="text-center theme-bg-light">Berlin</div>
+                    <h5 class="title mb-3">Meet the Maintainers</h5>
+                    <div class="profile mb-3">
+                        <div class="name">Maintainers of Keycloak</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 mb-1">
+                    <h4 class="py-2 text-center theme-bg-primary text-white mb-0">14:30 - 15:15</h4>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="text-center theme-bg-light">Berlin</div>
+                    {% include talk.html id=14 %}
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="text-center theme-bg-light">Raum 2</div>
+                    {% include talk.html id=5 %}
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="text-center theme-bg-light">Library</div>
+                    {% include talk.html id=2 %}
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 mb-1">
+                    <h4 class="py-2 text-center theme-bg-primary text-white mb-0">15:45 - 16:15</h4>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="text-center theme-bg-light">Berlin</div>
+                    {% include talk.html id=6 %}
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="text-center theme-bg-light">Raum 2</div>
+                    {% include talk.html id=19 %}
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="text-center theme-bg-light">Library</div>
+                    {% include talk.html id=8 %}
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 mb-1">
+                    <h4 class="py-2 text-center theme-bg-primary text-white mb-0">16:30 - 17:00</h4>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="text-center theme-bg-light">Berlin</div>
+                    {% include talk.html id=13 %}
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="text-center theme-bg-light">Raum 2</div>
+                    {% include talk.html id=16 %}
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 mb-1">
+                    <h4 class="py-2 text-center theme-bg-primary text-white mb-0">17:15 - 17:45</h4>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="text-center theme-bg-light">Berlin</div>
+                    {% include talk.html id=4 %}
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="text-center theme-bg-light">Raum 2</div>
+                    {% include talk.html id=15 %}
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 mb-1">
+                    <h4 class="py-2 text-center theme-bg-primary text-white mb-0">17:45 - 18:00</h4>
+                </div>
+                <div class="col-12">
+                    <div class="text-center theme-bg-light">Berlin</div>
+                    <h5 class="title mb-3">Closing Note 👋</h5>
                     <div class="meta">
-                        <h4 class="time mb-3">9:15 - 10:00</h4>
-                        <div class="profile">
-                            <div class="name">Keynote</div>
-                        </div><!--//profile-->
-                    </div><!--//meta-->
-                    <div class="content">
-                    {% include talk.html index=0 %}
-                    </div><!--//content-->
-                </div><!--//item-->
-                <div class="item item-talk">
+                        <img src="./assets/images/speakers/nko.jpg"  style="width: 50px" class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" alt="Niko Köbler">
+                        Niko Köbler, Host & Organizer
+                    </div>
                     <div class="meta">
-                        <h4 class="time mb-3">10:15 - 11:00</h4>
-                        <div class="profile">
-                            <div class="name">Talks</div>
-                        </div><!--//profile-->
-                    </div><!--//meta-->
-                    <div class="content">
-                        <div class="row">
-                            <div class="col-xs-12 col-lg-6">
-                                {% include talk.html index=1 %}
-                            </div>
-                            <div class="col-xs-12 col-lg-6">
-                                {% include talk.html index=2 %}
-                            </div>
-                        </div>
-                    </div><!--//content-->
-                </div><!--//item-->
-                <div class="item item-talk">
-                    <div class="meta">
-                        <h4 class="time mb-3">11:15 - 11:45</h4>
-                        <div class="profile">
-                            <div class="name">Talks</div>
-                        </div><!--//profile-->
-                    </div><!--//meta-->
-                    <div class="content">
-                        <div class="row">
-                            <div class="col-xs-12 col-lg-6">
-                                {% include talk.html index=3 %}
-                            </div>
-                            <div class="col-xs-12 col-lg-6">
-                                {% include talk.html index=4 %}
-                            </div>
-                        </div>
-                    </div><!--//content-->
-                </div><!--//item-->
-                <div class="item item-other">
-                    <div class="meta">
-                        <h4 class="time mb-3">11:45 - 13:00</h4>
-                    </div><!--//meta-->
-                    <div class="content">
-                        <h3 class="title mb-3">Lunch Break</h3>
-                        <div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Main Area</div>
-                        <div class="desc">Let's have some delicious food together.</div>
-                    </div><!--//content-->
-                </div><!--//item-->
-                <div class="item item-talk">
-                    <div class="meta">
-                        <h4 class="time mb-3">13:00 - 13:45</h4>
-                        <div class="profile">
-                            <div class="name">Talks</div>
-                        </div><!--//profile-->
-                    </div><!--//meta-->
-                    <div class="content">
-                        <div class="row">
-                            <div class="col-xs-12 col-lg-6">
-                                {% include talk.html index=5 %}
-                            </div>
-                            <div class="col-xs-12 col-lg-6">
-                                {% include talk.html index=6 %}
-                            </div>
-                        </div>
-                    </div><!--//content-->
-                </div><!--//item-->
-                <div class="item item-talk">
-                    <div class="meta">
-                        <h4 class="time mb-3">14:00 - 16:45</h4>
-                        <div class="profile">
-                            <div class="name">Participant Driven</div>
-                        </div><!--//profile-->
-                    </div><!--//meta-->
-                    <div class="content">
-                        <h3 class="title mb-3">Unconference / Bring Your Own Topics / Discussions / Workshops</h3>
-                        <div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>All Areas</div>
-                        <div class="desc">
-                            <b>Bring our own topics to discuss with and present to the other participants.</b>
-                            <br/><br/>
-                            In a classic Unconference format, you will decide upon the content first, then build a quick schedule and finally present/discuss your topics.
-                            <br/><br/>
-                            <b>Discussion:</b>
-                            Meet the Maintainers of Keycloak
-                            <br/><br/>
-                            <b>Workshop:</b>
-                            Contrib Fest / Become a Contributor to the Keycloak project
-                        </div>
-                    </div><!--//content-->
-                </div><!--//item-->
-                <div class="item item-other">
-                    <div class="meta">
-                        <h4 class="time mb-3">16:45 - 17:00 / Open End</h4>
-                    </div><!--//meta-->
-                    <div class="content">
-                        <h3 class="title mb-3">Closing Note, Feedback, Pizza 🍕 &amp; Drinks</h3>
-                        <div class="profile mb-3">
-                            <div class="name">Niko Köbler, Sebastian Rose</div>
-                        </div><!--//profile-->
-                        <div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Main Area</div>
-                        <div class="desc">
-                            We want to thank YOU 🙏 for being part of the first German Keycloak DevDay and asking for your feedback.
-                            <br/>
-                            Afterwards, we'll enjoy the end of the day with some Pizza &amp; Drinks, with chats, further discussions, etc.
-                        </div>
-                    </div><!--//content-->
-                </div><!--//item-->
-                
-            </div><!--//tab-1-content-->
-        </div><!--//schedule-tab-content-->
+                        <img src="./assets/images/speakers/sro.jpg"  style="width: 50px" class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" alt="Sebastian Rose">
+                        Sebastian Rose, Host & Organizer
+                    </div>
+                </div>
+            </div>
+        </div>
         {% if site.showTicketSale %}
-        <div class="schedule-cta text-center mx-auto"><a href="{{site.pretix}}" class="btn btn-secondary btn-lg" target="_blank">Buy Tickets</a></div>
+        <div class="schedule-cta text-center mx-auto mt-5">
+            <a href="{{site.pretix}}" class="btn btn-secondary btn-lg" target="_blank">Buy Tickets</a>
+        </div>
         {% endif %}
     </div><!--//container-->
 </section><!--//schedule-section-->

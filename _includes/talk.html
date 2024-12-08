@@ -1,15 +1,11 @@
-{% assign talk = site.data.talks[include.index] %}
+{% assign talk = site.data.talks | where: "id", include.id | first %}
 {% assign speaker = site.data.speakers | where: "key", talk.speaker | first %}
-<h3 class="title mb-3">{{ talk.title }}</h3>
-<div class="profile mb-3">
-    <div class="name">
-        <a class="theme-link" href="#modal-speaker-{{ talk.speaker }}" data-bs-toggle="modal" data-bs-target="#modal-speaker-{{ talk.speaker }}">
-            {{ speaker.name }}
-        </a>
-    </div>
-</div><!--//profile-->
-<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>{{ talk.room }}</div>
-<div class="desc mb-3">{{ talk.abstract }}</div>
+<h5 class="title mb-3">
+    <a href="#modal-talk-{{talk.id}}" class="text-dark" data-bs-toggle="modal" data-bs-target="#modal-talk-{{talk.id}}">{{talk.title}}</a>
+</h5>
+<div>
+{% include speaker-info-short.html talk=talk %}
+</div>
 {% if talk.links %}
 <div class="list-group">
     {% for link in talk.links %}
