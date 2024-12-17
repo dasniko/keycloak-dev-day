@@ -104,7 +104,7 @@
     Keeping a complex Keycloak configuration secure is no easy feat. Configuration drift and unintended changes can turn what was once a secure configuration into one that is wide open to attacks - and taking stock of a configuration that has been created over multiple years of operation can be a daunting task.
     No matter if you are a administrating your own Keycloak or called in to perform a security audit, automation can be essential in ensuring you can quickly find and fix configuration issues, and detect new ones when they show up.
     We developed kcwarden, an Open Source tool that assists in finding common security issues and establishing custom guardrails that can alert you about dangerous configuration changes specific to your environment.
-    In this talk, I will present how kcwarden can be used in your workflows. After the presentation, I'd be happy to get your views on the future direction of the tool in an Unconference session.
+    In this talk, I will present how kcwarden can be used in your workflows, and I would love to get suggestions for the future directions of the tool from the community
 - id: 14
   title: "Five Deadly Sins When Using Keycloak for SSO"
   speaker: tmmmmmr
