@@ -31,4 +31,5 @@ exclude:
   - buildspec.yml
   - Gemfile
   - Gemfile.lock
+  - deploy.sh
   - docker-compose.yml
