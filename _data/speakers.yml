@@ -190,20 +190,20 @@
     Waldemar Korłub (CTO Inero Software) obtained a PhD in Computer Science in 2017 granted by the Faculty of Electronics, Telecommunications and Informatics at Gdansk University of Technology.
     His research interests include: distributed systems mainly grid and cloud computing platforms, autonomous systems capable of self-optimization, self-management, self-healing and self-protection, artificial intelligence and multi-criterion optimization methods.
     He is an author of over 30 scientific papers in the area of distributed computing and artificial intelligence & he participated in several research projects.
-- key: malexmave
-  img: malexmave.jpg
-  name: Max Maass
-  title: Senior Security Specialist
-  company: iteratec
-  social:
-    - url: https://www.linkedin.com/in/max-maass/
-      icon: linkedin
-    - url: https://github.com/malexmave
-      icon: github
-  bio: |
-    Max Maaß works at the security team at iteratec.
-    He spends his time with architecture reviews, threat modeling and pentesting for software development projects.
-    Previously, he conducted research into security and privacy issues at the Secure Mobile Networking Lab at TU Darmstadt.
+# - key: malexmave
+#   img: malexmave.jpg
+#   name: Max Maass
+#   title: Senior Security Specialist
+#   company: iteratec
+#   social:
+#     - url: https://www.linkedin.com/in/max-maass/
+#       icon: linkedin
+#     - url: https://github.com/malexmave
+#       icon: github
+#   bio: |
+#     Max Maaß works at the security team at iteratec.
+#     He spends his time with architecture reviews, threat modeling and pentesting for software development projects.
+#     Previously, he conducted research into security and privacy issues at the Secure Mobile Networking Lab at TU Darmstadt.
 - key: dminescu
   img: dminescu.jpg
   name: Denisa Minescu
