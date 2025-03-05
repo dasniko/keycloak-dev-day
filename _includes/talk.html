@@ -2,6 +2,9 @@
 {% assign speaker = site.data.speakers | where: "key", talk.speaker | first %}
 <h5 class="title mb-3">
     <a href="#modal-talk-{{talk.id}}" class="text-dark" data-bs-toggle="modal" data-bs-target="#modal-talk-{{talk.id}}">{{talk.title}}</a>
+    {% if talk.remote %}
+    <span style="border: 1px solid red; padding: 2px; font-size: 8pt; color: red; border-radius: 4px">Remote</span>
+    {% endif %}
 </h5>
 <div>
 {% include speaker-info-short.html talk=talk %}

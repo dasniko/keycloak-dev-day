@@ -12,6 +12,7 @@
 - id: 2
   title: "Mastering Access Control: Low-Code Authorization with ReBAC, Decoupling Patterns and Policy as Code"
   speaker: embesozzi
+  remote: true
   abstract: |
     The talk shows the integration between Keycloak and OpenFGA for Fine-Grained Authorization based on ReBAC.
     Both platforms are integrated with a custom extension where the authorization model is synchronized.
@@ -78,6 +79,7 @@
 - id: 11
   title: "Lightweight and Repeatable Integration Testing of Keycloak Extensions"
   speaker: frademacher
+  remote: true
   abstract: |
     Keycloak extensions are often required to interact with the APIs of other systems, e.g., for the migration of customers from CRM systems to Keycloak users or for progressive profiling.
     While Keycloak's potential for such interactions is an important business requirement, it also calls for integration testing and thus makes extension testing more challenging:
