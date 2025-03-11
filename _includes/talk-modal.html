@@ -17,6 +17,13 @@
                 </div>
                 <div class="desc p-4 p-lg-5">
                     <p>{{talk.abstract}}</p>
+                    {% if talk.links %}
+                    <div class="mt-4 list-group">
+                        {% for link in talk.links %}
+                        <a href="{{link.url}}" target="_blank" class="list-group-item list-group-item-action"><i class="fa fa-link"></i>&nbsp;{{link.type}}</a>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
                 </div>
             </div>
         </div>

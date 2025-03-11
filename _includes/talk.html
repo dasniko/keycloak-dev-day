@@ -10,7 +10,7 @@
 {% include speaker-info-short.html talk=talk %}
 </div>
 {% if talk.links %}
-<div class="list-group">
+<div class="mt-2 list-group">
     {% for link in talk.links %}
     <a href="{{link.url}}" target="_blank" class="list-group-item list-group-item-action"><i class="fa fa-link"></i>&nbsp;{{link.type}}</a>
     {% endfor %}

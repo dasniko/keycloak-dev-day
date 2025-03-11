@@ -9,6 +9,9 @@
     <br/><br/>After a short recap of the latest Keycloak features, this talk shows how to navigate the release schedule of Keycloak and explains how preview and deprecated features work.
     It also shows how to prepare for the next upgrade using the resources provided by the Keycloak project, and what additional measures you should take in your deployment and test pipelines to smoothen the upgrade process.
     Finally, it will detail how you provide feedback to the Keycloak project ahead of an upcoming release.
+  links:
+    - type: Slides
+      url: https://speakerdeck.com/ahus1/benefit-from-the-latest-keycloak-features
 - id: 2
   title: "Mastering Access Control: Low-Code Authorization with ReBAC, Decoupling Patterns and Policy as Code"
   speaker: embesozzi
@@ -24,6 +27,9 @@
   speaker: garronej
   abstract: |
     An in-depth exploration of Keycloakify (<a href="https://keycloakify.dev" target="_blank">https://keycloakify.dev</a>): what it is, its key features, and how to get started with it.
+  links:
+    - type: Website
+      url: https://www.keycloakify.dev/
 - id: 4
   title: "Customize Keycloak with Ease: New UI Component Libraries"
   speaker: edewit
@@ -47,6 +53,9 @@
     It needs to adapt to different risk levels and ever-changing contexts, such as user location, device, and behavior, to ensure a secure and user-friendly experience.
     <br/>This presentation introduces the importance of adaptive authentication within Keycloak, showcasing how modern techniques combined with machine learning can transform identity and access management.
     <br/>This allows server administrators to detect anomalies and respond to emerging threats more effectively, ensuring that sensitive resources are protected. We provide step-by-step guidance and a demo on configuring and deploying these techniques in your Keycloak environment.
+  links:
+    - type: Slides
+      url: https://drive.google.com/file/d/12-vAuVmWqUb3581D8WqWq0uutLbH7tsn/view?usp=sharing
 - id: 7
   title: "Cloud Native Keycloak"
   speaker: dschlosser
@@ -63,6 +72,9 @@
     We present how we used a user and task focused design to create a new admin experience targeted at B2B SaaS companies.
     Our use-case driven methodology allowed us to massively reduce complexity and time to achieve the most common configuration and management goals.
     Additionally, we peek under the covers to show how we built it, along with existing and new extensions to make it possible.
+  links:
+    - type: Slides
+      url: ./assets/files/Auth.it_presentation.pdf
 - id: 9
   title: "Strengthening Security in Keycloak: An Introduction to the Shared Signals Framework"
   speaker: thomasdarimont
@@ -76,6 +88,9 @@
     As platform developers, we're constantly challenged to build systems that are secure, scalable, and ready for anything. But how do you maintain robust security without sacrificing flexibility? Enter OAuth 2.0 Token Exchange in Keycloak — a powerful tool that's transforming the way we manage identity and access across complex architectures.
     <br/>In this session, we'll explore how to use Keycloak's token exchange capabilities to tackle the toughest problems in platform development: securing microservice communications, handling dynamic authorization across distributed systems, and enabling seamless Single Sign-On across multiple domains. We'll dive deep into real-world use cases, share expert tips on configuring Keycloak for advanced token exchange scenarios, and reveal how you can leverage these capabilities to build platforms that are not just secure, but also agile and responsive to change.
     <br/>Whether you're building cloud-native apps, orchestrating microservices, or securing APIs, this talk will provide the practical knowledge you need to harness the full power of OAuth 2.0 Token Exchange with Keycloak. Don't miss your chance to redefine your platform's identity strategy and keep your systems ahead of the curve!
+  links:
+    - type: Slides
+      url: ./assets/files/20250306_KeycloakDevDay_TokenExchange.pdf
 - id: 11
   title: "Lightweight and Repeatable Integration Testing of Keycloak Extensions"
   speaker: frademacher
@@ -99,6 +114,9 @@
     In Europe, interest in De-centralized Identity (DID) and Self-sovereign identity (SSI) are increasing as the European Commission released "The European Digital Identity Wallet Architecture and Reference Framework" for eIDAS 2.0.
     The latest Keycloak supported an experimental feature OpenID for Verifiable Credential Issuance (OID4VCI) for this emerging paradigm of identity by keycloak's community like OAuth SIG.
     Takashi describes the latest updates about OID4VCI support and describes how to use Keycloak to issue a Verifiable Credential in detail.
+  links:
+    - type: Slides
+      url: ./assets/files/Norimatsu_KeycloakDevDay2025_Darmstadt.pdf
 - id: 13
   title: "kcwarden: Finding and Fixing Keycloak Config Issues"
   speaker: malexmave
@@ -115,6 +133,9 @@
     OAuth, a widely adopted protocol, plays a crucial role in safeguarding against these threats. However, its effectiveness can be severely compromised by mis-implementations at both the application and authorization service levels.
     This presentation will cover the five most critical mistakes —""deadly sins""— committed by architects and developers when using Keycloak to implement SSO with OAuth. These errors can lead to the compromise of user sessions, making organizations vulnerable to attacks.
     Additionally, we will discuss current/upcoming improvements in the OAuth specification and implementation strategies that can mitigate these risks, and how Keycloak aligns with these practices.
+  links:
+    - type: Slides
+      url: ./assets/files/KC_DevDay-TEMMAR.pdf
 - id: 15
   title: "Secure Service-to-Service Communication: Leveraging OIDC with Keycloak and mTLS for Robust Authentication and Authorization"
   speaker:
@@ -143,6 +164,9 @@
     <br/>Empowering Group Administrators: This extension empowers group administrators by allowing them to manage their own and child groups independently, handle enrollment requests or invitations, and either manually or on-demand remove users from groups (versus automatically, once their membership expires), ensuring cleaner group management.
     <br/>Enhanced User Experience: To improve usability, new menus in user and admin consoles simplify group management. Automated email notifications inform users and admins about key events like invitations and membership changes.
     <br/>Development and Future Integration: Currently implemented as a Keycloak extension (plugin), this functionality allows for easy integration without core modifications. Given its significant value, we believe it should be considered for integration into Keycloak's core features. We will also demonstrate the code structure and how the extension interfaces with Keycloak's architecture.
+  links:
+    - type: Slides
+      url: ./assets/files/RCIAM_Keycloak_Group_Management_-_Keycloak_DevDay.pdf
 - id: 18
   title: "Live-migrating millions of sessions to Keycloak"
   speaker: bike

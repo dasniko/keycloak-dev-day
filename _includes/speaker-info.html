@@ -16,12 +16,19 @@
             {% endif %}
             {% assign talk = site.data.talks | where: "speaker", spk.key | first %}
             {% if talk %}
-            <div>
+            <p>
                 Talk:<br/>
                 <a href="#modal-talk-{{talk.id}}" data-bs-toggle="modal" data-bs-target="#modal-talk-{{talk.id}}">{{talk.title}}</a>
-            </div>
+            </p>
             {% else %}
             <div class="text-muted"><em>Talk topic will follow soon...</em></div>
+            {% endif %}
+            {% if talk.links %}
+            <ul>
+                {% for link in talk.links %}
+                <li><a href="{{link.url}}" target="_blank"><i class="fa fa-link"></i>&nbsp;{{link.type}}</a></li>
+                {% endfor %}
+            </ul>
             {% endif %}
         </div><!--//card-->
         <div class="card-footer text-muted">
