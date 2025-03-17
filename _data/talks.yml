@@ -81,6 +81,9 @@
   abstract: |
     As security threats become more sophisticated, the need for efficient, real-time communication between identity providers and relying parties is essential. The Shared Signals Framework (SSF) and related specifications such as CAEP and RISC address this challenge by providing a standardised way for systems to exchange security related signals, such as session revocations, credential breaches, and other identity-related incidents, in a secure and scalable manner.
     <br/>This talk introduces the Shared Signals Framework and explains how it enhances security and operational efficiency in modern identity ecosystems. We'll explore how SSF can be supported in Keycloak to enable real-time event-driven communication between providers and relying parties. Attendees will learn how Keycloak can help to detect and mitigate threats, and improve overall system security with SSF.
+  links:
+    - type: Slides
+      url: ./assets/files/KCDD25-Strengthening_Security_in_Keycloak-ThomasDarimont.pdf
 - id: 10
   title: "Token Exchange: Keycloak's Secret Weapon for Platforms"
   speaker: sventorben
@@ -185,3 +188,6 @@
     In this talk, we will cover how to test and validate customized Keycloak setups by leveraging Kotlin-based integration tests.
     Using Kotlin's concise and expressive language features, we can write integration tests that confirm the correctness of the Terraform-provisioned Keycloak configurations.
     These tests will ensure that realms, authentication flows, and client settings behave as expected, reducing the risk of configuration errors in production.
+  links:
+    - type: Slides
+      url: ./assets/files/Keycloak_Day_2025_Presentation-Integration_Testing_of_Keycloak_Terraform_Modules.pdf
