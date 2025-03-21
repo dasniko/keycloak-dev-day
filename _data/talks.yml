@@ -106,6 +106,9 @@
     The talk goes into these issues based on experiences with the development of a real-world, non-trivial Keycloak extension for user migration. Specifically, the talk presents
     (i) ingredients to set up repeatable integration testing environments for Keycloak extensions with the Testcontainers framework; (ii) the automation of such setups so that local testing becomes possible; and (iii) Testcontainers Modules for flexible API mocking, and verifying custom scopes and claims in OIDC tokens.
     To this end, the talk focuses on a stripped down use case from the real-world Keycloak extension, in which a users logs into another system by means of a dedicated login form whose authenticator checks the user's credentials with the other system and in case of success creates a corresponding Keycloak user ("implicit user migration").
+  links:
+    - type: Slides
+      url: ./assets/files/KeycloakDevDay2025_-_Keycloak_Extensions_Integration_Testing.pdf
 - id: 12
   title: "Keycloak's Compliance with Security Specifications : from OAuth 2.0, OIDC to OID4VCI"
   speaker: tnorimat
