@@ -15,14 +15,20 @@
             </noscript>
         </div>
         {% else %}
-        <div class="section-intro single-col-max mx-auto text-center mb-4">Ticket sale has ended. We are sold out!</div>
+        <div class="section-intro single-col-max mx-auto text-center mb-4">Ticket sale will start approx. September 2025!</div>
+        <div class="section-intro single-col-max mx-auto text-center mb-4">
+            <a class="btn btn-warning btn-lg" href="/newsletter/" target="_blank">Subscribe to our newsletter to stay updated!</a>
+        </div>
         {% endif %}
         
         <div class="offers text-center bg-white p-4 p-lg-5">
             <h4 class="mb-3">What's included?</h4>
             <ul class="offers-list list-unstyled d-inline-block mx-auto text-start">
                 {% for incl in page.included %}
-                <li><span class="icon-holder me-2"><i class="fas fa-{{incl.icon}}"></i></span>{{incl.text}}</li>
+                <li class="d-flex align-items-center">
+                    <span class="icon-holder me-2"><i class="fas fa-{{incl.icon}}"></i></span>
+                    <span>{{incl.text}}</span>
+                </li>
                 {% endfor %}
             </ul>
         </div>

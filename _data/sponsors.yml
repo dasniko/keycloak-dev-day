@@ -1,21 +1,21 @@
-- name: ActiDoo GmbH
-  url: https://www.actidoo.com
-  logo: actidoo-logo-multi.svg
-- name: Bare.ID GmbH
-  url: https://www.bare.id
-  logo: Bare.ID-Logo.svg
-- name: Conciso GmbH
-  url: https://www.conciso.de
-  logo: conciso-logo-corporate.svg
-- name: intension GmbH
-  url: https://www.intension.de
-  logo: intension.png
+# - name: ActiDoo GmbH
+#   url: https://www.actidoo.com
+#   logo: actidoo-logo-multi.svg
+# - name: Bare.ID GmbH
+#   url: https://www.bare.id
+#   logo: Bare.ID-Logo.svg
+# - name: Conciso GmbH
+#   url: https://www.conciso.de
+#   logo: conciso-logo-corporate.svg
+# - name: intension GmbH
+#   url: https://www.intension.de
+#   logo: intension.png
 - name: Niko Köbler - Consult. Develop. Train.
   url: https://www.n-k.de
   logo: nko_signet.png
-- name: Phase Two Inc.
-  url: https://phasetwo.io/
-  logo: phase2.svg
+# - name: Phase Two Inc.
+#   url: https://phasetwo.io/
+#   logo: phase2.svg
 # - name: Red Hat Inc.
 #   url: https://www.redhat.com/
 #   logo: Logo-Red_Hat-A-Standard-RGB.svg
