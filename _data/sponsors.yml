@@ -1,15 +1,15 @@
-# - name: ActiDoo GmbH
-#   url: https://www.actidoo.com
-#   logo: actidoo-logo-multi.svg
+- name: ActiDoo GmbH
+  url: https://www.actidoo.com
+  logo: actidoo-logo-multi.svg
 - name: Bare.ID GmbH
   url: https://www.bare.id
   logo: Bare.ID-Logo.svg
 - name: Cloud-IAM
   url: https://www.cloud-iam.com
   logo: cloudIamLogoDark.svg
-# - name: Conciso GmbH
-#   url: https://www.conciso.de
-#   logo: conciso-logo-corporate.svg
+- name: Conciso GmbH
+  url: https://www.conciso.de
+  logo: conciso-logo-corporate.svg
 - name: intension GmbH
   url: https://www.intension.de
   logo: intension.png
