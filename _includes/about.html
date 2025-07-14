@@ -1,5 +1,9 @@
 <section id="about-section" class="about-section section theme-bg-light">
     <div class="container">
+        <div class="event-countdown text-center mb-5">		   
+            <h3 class="countdown-intro mb-2 section-heading text-center mb-3">Event Starts In:</h3>
+            <div id="countdown-box" class="countdown-box"></div>
+        </div><!--//event-countdown-->
         <h3 class="section-heading text-center mb-3">About Keycloak DevDay</h3>
         <div class="section-intro single-col-max mx-auto mb-4">
             Keycloak is an awesome open source identity and access management solution, owned by the CNCF, driven by a huge community and with strong support from Red Hat.
@@ -14,10 +18,6 @@
             </ul>
         </div><!--//benefits-list-->
         {% if site.showTicketSale %}
-        <div class="event-countdown text-center mb-3">		   
-            <h4 class="countdown-intro mb-2 text-center mb-3">Event Starts In:</h4>
-            <div id="countdown-box" class="countdown-box"></div>
-        </div><!--//event-countdown-->
         <div class="about-cta text-center mb-5"><a class="btn btn-secondary btn-lg mb-5" href="{{site.pretix}}" target="_blank">Get Your Ticket Today</a></div>
         {% endif %}
     </div><!--//container-->

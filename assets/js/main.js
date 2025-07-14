@@ -6,33 +6,26 @@ const header = document.getElementById('header');
 window.onload=function() 
 {   
     headerAnimation(); 
-
 };
 
 window.onresize=function() 
 {   
     headerAnimation(); 
-
 }; 
 
 window.onscroll=function() 
 { 
     headerAnimation(); 
-
 }; 
     
 
 function headerAnimation () {
-
     var scrollTop = window.scrollY;
-	
 	if ( scrollTop > 100 ) {	    
 	    header.classList.add('header-shrink');    
-	    	    
 	} else {
 	    header.classList.remove('header-shrink');
 	}
-
 };
 
 /* ===== Smooth scrolling ====== */
@@ -84,7 +77,7 @@ var spy = new Gumshoe('#navigation a', {
 
 /* ======= Countdown ========= */
 // set the date we're counting down to
-var target_date = new Date("2025-03-06T08:00:00Z").getTime();
+var target_date = new Date("2026-03-05T08:00:00Z").getTime();
  
 // variables for time units
 var days, hours, minutes, seconds;
