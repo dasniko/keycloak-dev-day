@@ -1,5 +1,9 @@
 ---
 layout: none
+title: KEYCLOAK DevDay 2026
+copy: The world's largest KEYCLOAK community conference
+location: Darmstadt, Germany 
+date: March 5 & 6, 2026 
 highlights:
   - number: 2(!)
     unit: Days
@@ -10,23 +14,23 @@ highlights:
   - number: 20+
     unit: Speakers + Maintainers
 reasons:
-  - Meet maintainers of Keycloak
-  - Meet other developers extending Keycloak
-  - Discover best-practices for operating Keycloak
-  - Learn from others using Keycloak
-  - Grow your Keycloak related network
-  - Free amazing Keycloak DevDay gift!
+  - Meet maintainers of KEYCLOAK
+  - Meet other developers extending KEYCLOAK
+  - Discover best-practices for operating KEYCLOAK
+  - Learn from others using KEYCLOAK
+  - Grow your KEYCLOAK related network
+  - Free amazing KEYCLOAK DevDay gift!
 included:
   - icon: user-tie
     text: "Day 1: Many talks from maintainers, industry-leading and community speakers!"
   - icon: people-carry
     text: "Day 2: Interactive format, Open Space, Unconf, Hackathon, ...<br>It's totally up to you to craft the contents of the second day.<br>Discuss, engage and join with your fellow Keycloakers."
-  - icon: glass-cheers
-    text: Dinner and afterwork-party with only a small surcharge
   - icon: utensils
     text: FREE drinks, refreshments, coffee and lunch during the event days
+  - icon: glass-cheers
+    text: FREE dinner and afterwork-party (ticket required), drinks on self-payer basis
   - icon: gift
-    text: FREE Keycloak Gift for all participants
+    text: FREE gift for all participants
 ---
 <!DOCTYPE html>
 <html lang="en"> 
@@ -65,11 +69,13 @@ included:
 	{% include header.html %}
 	
 	<div id="hero-block" class="hero-block">
-		<div id="hero-carousel" class="hero-carousel carousel slide carousel-fade" data-ride="carousel">
+		<div id="hero-carousel" class="hero-carousel carousel slide carousel-fade" data-bs-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item-1 carousel-item active"></div>
 				<div class="carousel-item-2 carousel-item"></div>
 				<div class="carousel-item-3 carousel-item"></div>
+				<div class="carousel-item-4 carousel-item"></div>
+				<div class="carousel-item-5 carousel-item"></div>
 			</div>
 		</div>
 		<div class="hero-block-mask"></div>
@@ -77,12 +83,12 @@ included:
 			<div class="d-flex align-items-start">
 				<img src="./assets/images/KeycloakMan.svg" alt="Keycloak Hero" class="me-3 d-none d-md-block" style="z-index: 10; width: 400px; height: auto; margin-left: -6rem; margin-top: -2rem;">
 				<div class="hero-text-block">
-					<h1 class="hero-heading mb-2">KEYCLOAK DevDay 2026</h1>
+					<h1 class="hero-heading mb-2">{{ page.title }}</h1>
 					<div class="hero-meta mb-3">
-						<i class="far fa-calendar-alt me-2"></i>March 5 & 6, 2026 
-						<i class="fas fa-map-marker-alt mx-2"></i>Darmstadt, Germany 
+						<i class="far fa-calendar-alt me-2"></i>{{ page.date }}
+						<i class="fas fa-map-marker-alt mx-2"></i>{{ page.location }}
 					</div>
-					<div class="hero-intro mb-4">The Community Class Reunion for <br>Keycloak Developers</div>
+					<div class="hero-intro mb-4">{{ page.copy }}</div>
 					<div class="hero-cta">
 					{% if site.showTicketSale %}
 					<a class="btn btn-primary btn-lg me-2 mb-2" href="{{site.pretix}}" target="_blank">Get Tickets</a>

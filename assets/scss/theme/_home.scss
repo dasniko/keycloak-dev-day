@@ -98,14 +98,24 @@
 		height: 100%;
 	}
 	.carousel-item-1 {
-		background: url('../images/hero-1.png') no-repeat center center;
+		background: url('../images/hero-1.jpg') no-repeat center center;
 		background-size: cover;
 	}
 	.carousel-item-2 {
 		background: url('../images/hero-2.jpg') no-repeat center center;
+		background-size: cover;
 	}
 	.carousel-item-3 {
 		background: url('../images/hero-3.jpg') no-repeat center center;
+		background-size: cover;
+	}
+	.carousel-item-4 {
+		background: url('../images/hero-4.jpg') no-repeat center center;
+		background-size: cover;
+	}
+	.carousel-item-5 {
+		background: url('../images/hero-5.jpg') no-repeat center center;
+		background-size: cover;
 	}
 }
 
