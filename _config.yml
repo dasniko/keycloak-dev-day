@@ -3,7 +3,7 @@ description: Keycloak Developer Community 2-Day-Conference
 url: https://www.keycloak-day.dev
 baseurl: "" # the subpath of your site, e.g. /blog
 pretix: https://tickets.n-k.de/kcdd26/
-showTicketSale: false
+showTicketSale: true
 showCfp: true
 showSpeakers: false
 

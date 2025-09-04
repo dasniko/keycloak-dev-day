@@ -1,11 +1,14 @@
 <section id="tickets-section" class="tickets-section section theme-bg-light">
     <div class="container">
         <h3 class="section-heading text-center mb-3">Tickets</h3>
-        <!--div class="text-center text-danger fw-bold">10% EarlyBird discount until September 30!</div-->
         {% if site.showTicketSale %}
-        <div class="section-intro single-col-max mx-auto text-center mb-4">Please buy your ticket through our <a href="{{site.pretix}}" target="_blank">pretix ticket shop</a>:</div>
-        <div class="row pricing mb-5">
-            <pretix-widget event="{{site.pretix}}" single-item-select="button"></pretix-widget>
+        <div class="section-intro single-col-max mx-auto text-center">Please buy your ticket through our <a href="{{site.pretix}}" target="_blank">pretix ticket shop</a>:</div>
+        <div class="text-center text-danger">
+            <div class="section-intro fw-bold">10% EarlyBird discount until September 30!</div>
+            <div>Discount will be calculated automatically during payment process.</div>
+        </div>
+        <div class="row pricing mt-4">
+            <pretix-widget event="{{site.pretix}}"></pretix-widget>
             <noscript>
                 <div class="pretix-widget">
                     <div class="pretix-widget-info-message">
@@ -14,8 +17,11 @@
                 </div>
             </noscript>
         </div>
+        <div class="small mx-auto text-center mb-5">
+            Within our web page, we use features and content embedded from pretix, a service provided by pretix GmbH, Berthold-Mogel-Straße 1, 69126 Heidelberg, Germany. Part of this is our ticket shop which is included through a JavaScript widget. If you try to purchase a ticket, pretix will use cookies to make your purchase process possible and to remember which tickets are in your cart. This cookie will only be set once you start interacting with the pretix widget. pretix does not store any IP addresses, browser information or other unnecessary meta data beyond the timeframe of your transaction. You can find out more about privacy at pretix here: https://pretix.eu/about/en/privacy
+        </div>
         {% else %}
-        <div class="section-intro single-col-max mx-auto text-center mb-4">Ticket sale will start approx. September 2025!</div>
+        <div class="section-intro single-col-max mx-auto text-center mb-4">Ticket sale will start September 15, 2025!</div>
         <div class="section-intro single-col-max mx-auto text-center mb-4">
             <a class="btn btn-warning btn-lg" href="/newsletter/" target="_blank">Subscribe to our newsletter to stay updated!</a>
         </div>
