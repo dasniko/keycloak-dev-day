@@ -1,7 +1,7 @@
-title: Keycloak DevDay 2026 Germany
-description: Keycloak Developer Community 2-Day-Conference
+title: KEYCLOAK DevDay 2026 Germany
+description: The world's largest KEYCLOAK community 2-day conference for developers and operators
 url: https://www.keycloak-day.dev
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: ""
 pretix: https://tickets.n-k.de/kcdd26/
 showTicketSale: true
 showCfp: true
