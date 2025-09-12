@@ -3,11 +3,13 @@
         <h3 class="section-heading text-center mb-3">Tickets</h3>
         {% if site.showTicketSale %}
         <div class="section-intro single-col-max mx-auto text-center">Please buy your ticket through our <a href="{{site.pretix}}" target="_blank">pretix ticket shop</a>:</div>
+        {% comment %}	
         <div class="text-center text-danger">
             <div class="section-intro fw-bold">10% EarlyBird discount until September 30!</div>
             <div>Discount will be calculated automatically during payment process.</div>
         </div>
-        <div class="row pricing mt-4">
+        {% endcomment %}	
+        <div class="row pricing mt-2">
             <pretix-widget event="{{site.pretix}}"></pretix-widget>
             <noscript>
                 <div class="pretix-widget">
