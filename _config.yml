@@ -4,8 +4,9 @@ url: https://www.keycloak-day.dev
 baseurl: ""
 pretix: https://tickets.n-k.de/kcdd26/
 showTicketSale: true
-showCfp: true
-showSpeakers: false
+showCfp: false
+showSpeakers: true
+showSchedule: false
 
 # some default values for Front Matter
 defaults:

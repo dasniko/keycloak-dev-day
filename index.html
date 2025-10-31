@@ -7,19 +7,19 @@ date: March 5 & 6, 2026
 highlights:
   - number: 2(!)
     unit: Days
-  - number: 175+
+  - number: 180+
     unit: Attendees
-  - number: 18+
+  - number: 20+
     unit: Talks + Keynote
   - number: 20+
     unit: Speakers + Maintainers
 reasons:
-  - Meet maintainers of KEYCLOAK
+  - Meet maintainers & team of KEYCLOAK
   - Meet other developers extending KEYCLOAK
   - Discover best-practices for operating KEYCLOAK
   - Learn from others using KEYCLOAK
   - Grow your KEYCLOAK related network
-  - Free amazing KEYCLOAK DevDay gift!
+  - Free amazing KEYCLOAK DevDay gift!<br><em>(You asked for T-shirts, you will get T-shirts!)</em>
 included:
   - icon: user-tie
     text: "Day 1: Many talks from maintainers, industry-leading and community speakers!"
@@ -30,7 +30,7 @@ included:
   - icon: glass-cheers
     text: FREE dinner and afterwork-party (ticket required), drinks on self-payer basis
   - icon: gift
-    text: FREE gift for all participants
+    text: FREE gift (amazing DevDay T-Shirt!!!) for all participants
 ---
 <!DOCTYPE html>
 <html lang="en"> 
@@ -91,7 +91,7 @@ included:
 					<div class="hero-intro mb-4">{{ page.copy }}</div>
 					<div class="hero-cta">
 					{% if site.showTicketSale %}
-					<a class="btn btn-primary btn-lg me-2 mb-2" href="{{site.pretix}}" target="_blank">Get Tickets</a>
+					<a class="btn btn-secondary btn-lg me-2 mb-2" href="{{site.pretix}}" target="_blank">Get Tickets</a>
 					{% endif %}
 					{% if site.showCfp %}
 					<a class="btn btn-secondary btn-lg me-2 mb-2 scrollto" href="#cfp-section" >>>> Call for Papers <<<</a>
@@ -132,8 +132,10 @@ included:
 		<hr>
 	</div>
 
-	{% comment %}	
+	{% if site.showSchedule %}
 	{% include schedule.html %}
+	{% endif %}
+	{% comment %}	
 	{% include talks.html %}
 	{% endcomment %}
 
@@ -146,7 +148,7 @@ included:
 	{% include footer.html %}
 
 	<!-- Modal Speaker -->
-	 {% comment %}	
+	{% comment %}	
 	{% include speaker-modal.html %}
 	{% include talk-modal.html %}
 	{% endcomment %}
