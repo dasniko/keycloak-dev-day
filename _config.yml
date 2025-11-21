@@ -5,8 +5,8 @@ baseurl: ""
 pretix: https://tickets.n-k.de/kcdd26/
 showTicketSale: true
 showCfp: false
-showSpeakers: true
-showSchedule: false
+showSpeakers: false
+showSchedule: true
 
 # some default values for Front Matter
 defaults:
