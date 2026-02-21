@@ -27,10 +27,9 @@ plugins:
 exclude:
   - README.md
   - .git
+  - .github
   - .sass-cache
   - .jekyll-cache
-  - buildspec.yml
   - Gemfile
   - Gemfile.lock
-  - deploy.sh
   - docker-compose.yml
