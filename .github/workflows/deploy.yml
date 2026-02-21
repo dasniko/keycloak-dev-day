@@ -29,4 +29,4 @@ jobs:
           sshpass -e rsync -avz --delete \
             -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" \
             _site/ \
-            "${{ secrets.SFTP_USER }}@ssh.strato.de:/keycloak-dev-day/"
+            "${{ secrets.SFTP_USER }}@ssh.strato.de:keycloak-dev-day/"
