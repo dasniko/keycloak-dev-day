@@ -1,0 +1,54 @@
+---
+layout: none
+---
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<title>{{site.title}}</title>
+	
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="{{site.description}}">
+	<link rel="shortcut icon" href="./favicon.ico"> 
+	
+	<!-- Google Fonts -->
+	<link href="./assets/fonts/fonts.css" rel="stylesheet">
+	
+	<!-- FontAwesome JS-->
+	<script defer src="./assets/fontawesome/js/all.min.js"></script>
+
+	<!-- Theme CSS -->  
+	<link id="theme-style" rel="stylesheet" href="./assets/css/theme.css">
+
+</head> 
+
+<body>    
+<div class="bg-primary w-100 mb-4" style="height: 70px;">
+    {% include header.html %}
+</div>
+
+<h1 class="text-center">OpenSpace Session Schedule</h1>
+<p class="text-center">(Friday, March 6)</p>
+
+<div class="m-2 mt-3">
+{% for slot in site.data.unkonf %}
+    <div class="row" id="{{slot.id}}">
+        {% for s in slot.sessions %}
+            <div class="{% if s.class %}{{ s.class }}{% else %}col-12 col-lg-2{% endif %}">
+                <div class="card {% if s.card %}{{ s.card }}{% else %}text-bg-primary{% endif %} mb-3">
+                    <div class="card-header">{{ s.time }} ({{ s.room }})</div>
+                    <div class="card-body">
+                        <h5 class="card-title">{{ s.title }}</h5>
+                        <p class="card-text">{{ s.text }}</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endfor %}
+</div>
+
+</body>
+</html> 

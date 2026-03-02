@@ -1,0 +1,137 @@
+- id: planning
+  sessions:
+    - room: Madrid/Marseille
+      time: 08:30 - 09:30
+      title: Session Planning 📊
+      card: text-bg-info
+- id: slot1
+  sessions:
+    - room: Madrid/Marseille
+      time: 09:35 - 10:35
+      title: Session 1
+      text: ...
+    - room: Barcelona
+      time: 09:35 - 10:35
+      title: Session 2
+      text: ...
+    - room: Brussels
+      time: 09:35 - 10:35
+      title: Session 3
+      text: ...
+    - room: Bucharest
+      time: 09:35 - 10:35
+      title: Session 4
+      text: ...
+    - room: Lodz
+      time: 09:35 - 10:35
+      title: Session 5
+      text: ...
+    - room: Krakow
+      time: 09:35 - 10:35
+      title: Session 6
+      text: ...
+- id: coffee
+  sessions:
+    - room: Foyer
+      time: 10:30 - 11:00
+      title: Coffee Break ☕️
+      text: Snacks, Coffee & Tee
+      class: col-12
+      card: text-bg-warning
+- id: slot2
+  sessions:
+    - room: Madrid/Marseille
+      time: 11:00 - 12:00
+      title: Session 7
+      text: ...
+    - room: Barcelona
+      time: 11:00 - 12:00
+      title: Session 8
+      text: ...
+    - room: Brussels
+      time: 11:00 - 12:00
+      title: Session 9
+      text: ...
+    - room: Bucharest
+      time: 11:00 - 12:00
+      title: Session 10
+      text: ...
+    - room: Lodz
+      time: 11:00 - 12:00
+      title: Session 11
+      text: ...
+    - room: Krakow
+      time: 11:00 - 12:00
+      title: Session 12
+      text: ...
+- id: lunch
+  sessions:
+    - room: Restaurant Daylis
+      time: 12:00 - 13:00
+      title: Lunch Break 🍽️
+      class: col-12
+      card: text-bg-warning
+- id: slot3
+  sessions:
+    - room: Madrid/Marseille
+      time: 13:00 - 14:15
+      title: Session 13
+      text: ...
+    - room: Barcelona
+      time: 13:00 - 14:15
+      title: Session 14
+      text: ...
+    - room: Brussels
+      time: 13:00 - 14:15
+      title: Session 15
+      text: ...
+    - room: Bucharest
+      time: 13:00 - 14:15
+      title: Session 16
+      text: ...
+    - room: Lodz
+      time: 13:00 - 14:15
+      title: Session 17
+      text: ...
+    - room: Krakow
+      time: 13:00 - 14:15
+      title: Session 18
+      text: ...
+- id: shortbreak
+  sessions:
+    - room: Short Break
+      time: 14:15 - 14:25
+      class: col-12
+      card: text-bg-warning
+- id: slot4
+  sessions:
+    - room: Madrid/Marseille
+      time: 14:25 - 15:40
+      title: Session 19
+      text: ...
+    - room: Barcelona
+      time: 14:25 - 15:40
+      title: Session 20
+      text: ...
+    - room: Brussels
+      time: 14:25 - 15:40
+      title: Session 21
+      text: ...
+    - room: Bucharest
+      time: 14:25 - 15:40
+      title: Session 22
+      text: ...
+    - room: Lodz
+      time: 14:25 - 15:40
+      title: Session 23
+      text: ...
+    - room: Krakow
+      time: 14:25 - 15:40
+      title: Session 24
+      text: ...
+- id: last
+  sessions:
+    - room: Madrid/Marseille
+      time: 15:45 - 16:00
+      title: Closing 🙇 🙏 & Farewell 👋
+      card: text-bg-info
