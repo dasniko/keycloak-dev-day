@@ -1,137 +1,93 @@
 - id: planning
+  time: 08:30 - 09:30
   sessions:
     - room: Madrid/Marseille
-      time: 08:30 - 09:30
       title: Session Planning 📊
       card: text-bg-info
 - id: slot1
+  time: 09:35 - 10:35
   sessions:
     - room: Madrid/Marseille
-      time: 09:35 - 10:35
-      title: Session 1
-      text: ...
+      title: AuthN for Apple Devices / Apple Business Manager
     - room: Barcelona
-      time: 09:35 - 10:35
-      title: Session 2
-      text: ...
+      title: .well-known IdP Config
     - room: Brussels
-      time: 09:35 - 10:35
-      title: Session 3
-      text: ...
+      title: Realm vs. Clients vs. Orgs, how to manage
     - room: Bucharest
-      time: 09:35 - 10:35
-      title: Session 4
-      text: ...
+      title: Keycloak Test-Framework getting started
     - room: Lodz
-      time: 09:35 - 10:35
-      title: Session 5
-      text: ...
+      title: Configuring Realms & Client Attributes in AdminUI
     - room: Krakow
-      time: 09:35 - 10:35
-      title: Session 6
-      text: ...
+      title: Micro-Frontend Integration
 - id: coffee
+  time: 10:30 - 11:00
   sessions:
     - room: Foyer
-      time: 10:30 - 11:00
       title: Coffee Break ☕️
       text: Snacks, Coffee & Tee
       class: col-12
       card: text-bg-warning
 - id: slot2
+  time: 11:00 - 12:00
   sessions:
     - room: Madrid/Marseille
-      time: 11:00 - 12:00
-      title: Session 7
-      text: ...
+      title: Keycloak Extension Registry
     - room: Barcelona
-      time: 11:00 - 12:00
-      title: Session 8
-      text: ...
+      title: Rapid Keycloak Development with local K8s & Tilt
     - room: Brussels
-      time: 11:00 - 12:00
-      title: Session 9
-      text: ...
+      title: Crossplane Keycloak Provider
     - room: Bucharest
-      time: 11:00 - 12:00
-      title: Session 10
-      text: ...
+      title: Building new rules for KCWarden
     - room: Lodz
-      time: 11:00 - 12:00
-      title: Session 11
-      text: ...
+      title: Push MFA Extension
     - room: Krakow
-      time: 11:00 - 12:00
-      title: Session 12
-      text: ...
+      title: REST Client in KC SPI Best Practices
 - id: lunch
+  time: 12:00 - 13:00
   sessions:
     - room: Restaurant Daylis
-      time: 12:00 - 13:00
       title: Lunch Break 🍽️
       class: col-12
       card: text-bg-warning
 - id: slot3
+  time: 13:00 - 14:15
   sessions:
     - room: Madrid/Marseille
-      time: 13:00 - 14:15
-      title: Session 13
-      text: ...
+      title: Wallet Debugging
     - room: Barcelona
-      time: 13:00 - 14:15
-      title: Session 14
-      text: ...
+      title: OIDC Federation
     - room: Brussels
-      time: 13:00 - 14:15
-      title: Session 15
-      text: ...
+      title: Security Assessment for Federation
     - room: Bucharest
-      time: 13:00 - 14:15
-      title: Session 16
-      text: ...
+      title: How different would KC be if Quarkus existed from beginning
     - room: Lodz
-      time: 13:00 - 14:15
-      title: Session 17
-      text: ...
+      title: Organize Roles & Privileges
     - room: Krakow
-      time: 13:00 - 14:15
-      title: Session 18
-      text: ...
+      title: Extending KC AdminUI 2026
 - id: shortbreak
+  time: 14:15 - 14:25
   sessions:
     - room: Short Break
-      time: 14:15 - 14:25
       class: col-12
       card: text-bg-warning
 - id: slot4
+  time: 14:25 - 15:40
   sessions:
     - room: Madrid/Marseille
-      time: 14:25 - 15:40
-      title: Session 19
-      text: ...
+      title: Keycloak Extension Template
     - room: Barcelona
-      time: 14:25 - 15:40
       title: Session 20
-      text: ...
     - room: Brussels
-      time: 14:25 - 15:40
       title: Session 21
-      text: ...
     - room: Bucharest
-      time: 14:25 - 15:40
       title: Session 22
-      text: ...
     - room: Lodz
-      time: 14:25 - 15:40
       title: Session 23
-      text: ...
     - room: Krakow
-      time: 14:25 - 15:40
       title: Session 24
-      text: ...
 - id: last
+  time: 15:45 - 16:00
   sessions:
     - room: Madrid/Marseille
-      time: 15:45 - 16:00
       title: Closing 🙇 🙏 & Farewell 👋
       card: text-bg-info
