@@ -76,15 +76,15 @@
     - room: Madrid/Marseille
       title: Keycloak Extension Template
     - room: Barcelona
-      title: Session 20
+      title: 
     - room: Brussels
-      title: Session 21
+      title: 
     - room: Bucharest
-      title: Session 22
+      title: 
     - room: Lodz
-      title: Session 23
+      title: 
     - room: Krakow
-      title: Session 24
+      title: 
 - id: last
   time: 15:45 - 16:00
   sessions:
