@@ -4,9 +4,10 @@ volumes:
 services:
   jekyll:
     image: jekyll/jekyll:4
-    command: jekyll serve --watch
+    command: jekyll serve --watch --livereload
     ports:
-      - 4000:4000
+      - "4000:4000"
+      - "35729:35729"
     volumes:
       - .:/srv/jekyll:cached
       - jekyll_data:/usr/local/bundle

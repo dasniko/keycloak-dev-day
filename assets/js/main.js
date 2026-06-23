@@ -77,7 +77,7 @@ var spy = new Gumshoe('#navigation a', {
 
 /* ======= Countdown ========= */
 // set the date we're counting down to
-var target_date = new Date("2026-03-05T08:00:00Z").getTime();
+var target_date = new Date("2027-04-08T08:00:00Z").getTime();
  
 // variables for time units
 var days, hours, minutes, seconds;
