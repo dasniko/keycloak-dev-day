@@ -1,27 +1,32 @@
-# - name: ActiDoo GmbH
-#   url: https://www.actidoo.com
-#   logo: actidoo-logo-multi.svg
+- name: ActiDoo GmbH
+  type: silver
+  url: https://www.actidoo.com
+  logo: actidoo-logo-multi.svg
 # - name: Bare.ID GmbH
+#   type: silver
 #   url: https://www.bare.id
 #   logo: Bare.ID-Logo.svg
-- name: Cloud-IAM
+- name: Cloud-IAM Inc.
+  type: gold
   url: https://www.cloud-iam.com
   logo: cloudIamLogoDark.svg
 # - name: Conciso GmbH
+#   type: silver
 #   url: https://www.conciso.de
 #   logo: conciso-logo-corporate.svg
-# - name: intension GmbH
-#   url: https://www.intension.de
-#   logo: intension.png
+- name: intension GmbH
+  type: gold
+  url: https://www.intension.de
+  logo: intension.png
 # - name: Irian Deutschland GmbH
+#   type: silver
 #   url: https://irian.com/
 #   logo: Irian_logo_2015.svg
-- name: Niko Köbler - The KEYCLOAK Expert - Consult. Develop. Train.
+- name: Niko Köbler - Europe's leading Keycloak Expert
+  type: silver
   url: https://www.n-k.de
   logo: nko_signet.png
-# - name: Phase Two Inc.
-#   url: https://phasetwo.io/
-#   logo: phase2.svg
-# - name: Red Hat Inc.
-#   url: https://www.redhat.com/
-#   logo: Logo-Red_Hat-A-Standard-RGB.svg
+- name: Phase Two Inc.
+  type: silver
+  url: https://phasetwo.io/
+  logo: phase2.svg
