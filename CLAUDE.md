@@ -93,12 +93,35 @@ Sendinblue). `unkonf.html` renders the Open Space/Unconference grid from `_data/
 
 ## Styling
 
-`assets/scss/` (theme colors, Bootstrap overrides) is the *source* for the compiled
-`assets/css/theme.css`, but this repo has no Sass build step wired into Jekyll (the `.scss` files
-carry no Jekyll front matter, so Jekyll won't process them) — `theme.css` is a separately compiled,
-committed artifact. Editing `assets/scss/*.scss` alone has no effect on the served site; the compiled
-CSS in `assets/css/theme.css` must be regenerated and committed separately (via the original DevConf
-theme's own Sass toolchain) or edited directly for small tweaks.
+`assets/scss/theme.scss` (theme colors + `@import "bootstrap/scss/bootstrap.scss"` +
+`@import "theme/styles.scss"`) is compiled by Jekyll's built-in Sass support (`jekyll-sass-converter`
+→ libsass, already a transitive dependency of the `jekyll` gem — no extra tooling needed) on every
+`jekyll build`/`jekyll serve`. The front matter on `theme.scss` (`permalink: /assets/css/theme.css`)
+pins the compiled output to that path, matching what every page's `<link>` tag expects.
+`assets/css/theme.css` is **generated, not committed** — don't hand-edit it or check it in; edit the
+`.scss` source and rebuild.
+
+Sass config lives in `_config.yml` under `sass:`. Two non-obvious settings:
+- `sass_dir: assets/scss` — needed because the vendored Bootstrap tree lives outside the Jekyll
+  default (`_sass`); without it, `@import "bootstrap/scss/bootstrap.scss"` fails to resolve.
+- `sourcemap: never` — jekyll-sass-converter's sourcemap companion page copies the *entire* front
+  matter (including our `permalink:`) onto the `.map` page, which makes it resolve to the exact same
+  destination as `theme.css` and silently overwrite it with sourcemap JSON. Don't remove this setting
+  without fixing that collision another way (e.g. dropping the custom `permalink:` and instead relying
+  on Jekyll's default output path, which mirrors the source tree under `assets/scss/`, then updating
+  every `<link>` tag to match).
+
+Only the `theme.scss` entry point has front matter and gets compiled as a page; the vendored
+`_*.scss` partials (Bootstrap source, `theme/_base.scss`, `theme/_home.scss`, etc.) are skipped by
+Jekyll's site reader automatically (any file whose basename starts with `_` is excluded by default).
+A few non-partial vendored files (`bootstrap-grid.scss`, `bootstrap-reboot.scss`,
+`bootstrap-utilities.scss`, `theme/styles.scss`) have no front matter, so Jekyll just copies them
+verbatim into `_site/assets/scss/` as inert, unreferenced files — harmless but not cleaned up.
+
+Compressed (`style: compressed`) libsass output was verified byte-for-byte against the previously
+hand-built `theme.css` it replaced; the only differences found were missing Autoprefixer vendor
+prefixes and Bootstrap form/dark-mode-carousel rules this site's HTML never uses — see the
+`scss-build-step` branch history for the full verification.
 
 ## External integrations
 

@@ -19,6 +19,11 @@ defaults:
 
 markdown: kramdown
 
+sass:
+  style: compressed
+  sass_dir: assets/scss
+  sourcemap: never
+
 # Use the following plug-ins
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
@@ -26,6 +31,7 @@ plugins:
 # Exclude these files from your production _site
 exclude:
   - README.md
+  - CLAUDE.md
   - .git
   - .github
   - .sass-cache
