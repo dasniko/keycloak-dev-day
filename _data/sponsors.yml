@@ -22,6 +22,10 @@
 #   type: silver
 #   url: https://irian.com/
 #   logo: Irian_logo_2015.svg
+- name: Keymate Inc.
+  type: gold
+  url: https://keymate.io/
+  logo: Keymate_Horizontal-Dark.svg
 - name: Niko Köbler - Europe's leading Keycloak Expert
   type: silver
   url: https://www.n-k.de
@@ -30,3 +34,7 @@
   type: silver
   url: https://phasetwo.io/
   logo: phase2.svg
+# - name: Sticker Mule
+#   type: sticker
+#   url: https://mule.to/p46j
+#   logo: sticker-mule-logo-light-bg.svg
