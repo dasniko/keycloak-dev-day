@@ -10,10 +10,10 @@
   type: gold
   url: https://www.cloud-iam.com
   logo: cloudIamLogoDark.svg
-# - name: Conciso GmbH
-#   type: silver
-#   url: https://www.conciso.de
-#   logo: conciso-logo-corporate.svg
+- name: Conciso GmbH
+  type: silver
+  url: https://www.conciso.de
+  logo: conciso-logo-corporate.svg
 - name: intension GmbH
   type: gold
   url: https://www.intension.de
