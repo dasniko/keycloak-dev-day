@@ -18,10 +18,10 @@
   type: gold
   url: https://www.intension.de
   logo: intension.png
-# - name: Irian Deutschland GmbH
-#   type: silver
-#   url: https://irian.com/
-#   logo: Irian_logo_2015.svg
+- name: Irian Deutschland GmbH
+  type: silver
+  url: https://irian.com/
+  logo: Irian_logo_2015.svg
 - name: Keymate Inc.
   type: gold
   url: https://keymate.io/
