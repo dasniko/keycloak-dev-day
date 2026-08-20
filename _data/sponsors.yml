@@ -2,10 +2,10 @@
   type: silver
   url: https://www.actidoo.com
   logo: actidoo-logo-multi.svg
-# - name: Bare.ID GmbH
-#   type: silver
-#   url: https://www.bare.id
-#   logo: Bare.ID-Logo.svg
+- name: Bare.ID GmbH
+  type: silver
+  url: https://www.bare.id
+  logo: Bare.ID-Logo.svg
 - name: Cloud-IAM Inc.
   type: gold
   url: https://www.cloud-iam.com
