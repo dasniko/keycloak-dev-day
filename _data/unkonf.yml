@@ -8,17 +8,17 @@
   time: 09:35 - 10:35
   sessions:
     - room: Madrid/Marseille
-      title: AuthN for Apple Devices / Apple Business Manager
+      title: 
     - room: Barcelona
-      title: .well-known IdP Config
+      title: 
     - room: Brussels
-      title: Realm vs. Clients vs. Orgs, how to manage
+      title: 
     - room: Bucharest
-      title: Keycloak Test-Framework getting started
+      title: 
     - room: Lodz
-      title: Configuring Realms & Client Attributes in AdminUI
+      title: 
     - room: Krakow
-      title: Micro-Frontend Integration
+      title: 
 - id: coffee
   time: 10:30 - 11:00
   sessions:
@@ -31,17 +31,17 @@
   time: 11:00 - 12:00
   sessions:
     - room: Madrid/Marseille
-      title: Keycloak Extension Registry
+      title: 
     - room: Barcelona
-      title: Rapid Keycloak Development with local K8s & Tilt
+      title: 
     - room: Brussels
-      title: Crossplane Keycloak Provider
+      title: 
     - room: Bucharest
-      title: Building new rules for KCWarden
+      title: 
     - room: Lodz
-      title: Push MFA Extension
+      title: 
     - room: Krakow
-      title: REST Client in KC SPI Best Practices
+      title: 
 - id: lunch
   time: 12:00 - 13:00
   sessions:
@@ -53,17 +53,17 @@
   time: 13:00 - 14:15
   sessions:
     - room: Madrid/Marseille
-      title: Wallet Debugging
+      title: 
     - room: Barcelona
-      title: OIDC Federation
+      title: 
     - room: Brussels
-      title: Security Assessment for Federation
+      title: 
     - room: Bucharest
-      title: How different would KC be if Quarkus existed from beginning
+      title: 
     - room: Lodz
-      title: Organize Roles & Privileges
+      title: 
     - room: Krakow
-      title: Extending KC AdminUI 2026
+      title: 
 - id: shortbreak
   time: 14:15 - 14:25
   sessions:
@@ -74,7 +74,7 @@
   time: 14:25 - 15:40
   sessions:
     - room: Madrid/Marseille
-      title: Keycloak Extension Template
+      title: 
     - room: Barcelona
       title: 
     - room: Brussels
