@@ -4,7 +4,7 @@ url: https://www.keycloak-day.dev
 baseurl: ""
 pretix: https://tickets.n-k.de/kcdd27/
 showTicketSale: true
-showCfp: true
+showCfp: false
 showSpeakers: false
 showSchedule: false
 
