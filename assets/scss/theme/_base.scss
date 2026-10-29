@@ -47,6 +47,11 @@ a.theme-link {
 	    @include box-shadow(none);
 	    color: white;
     }
+
+	&:hover, &:focus, &:active {
+		text-decoration: none;
+		color: #fff;
+	}
 }
 
 
