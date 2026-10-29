@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main  # adjust if your default branch is different
+    paths-ignore:
+      - .github/**
 
 jobs:
   build-and-deploy:
